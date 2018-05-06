@@ -38,7 +38,6 @@ exclude:
   - vendor
   - npm-debug.log
   - gulpfile.js
-  - sleek.png
 
 include: ['_pages']
 permalink: /:title/
