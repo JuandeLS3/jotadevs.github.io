@@ -1,9 +1,17 @@
 ---
-layout: index
-section-type: index
-sitemap:
-  priority: 1.0
+layout: default
+title: Home
+menu: no
 ---
-<!--
-If you want to have a static message in your intro layout, disable the dynamic-typing in the _config.yml and write here your text
--->
+<h1 class="page-title">Articles</h1>
+<div class="home">
+<div class="post-list">
+{% for post in site.posts %}
+<a style="text-decoration:none"  href="{{ post.url | prepend: site.baseurl }}">
+      {% include post-cards.html %}
+</a>
+{% endfor %}
+</div>
+</div>
+
+
