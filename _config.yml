@@ -10,7 +10,7 @@ title: JuandeLS3
 author: JuandeLS3
 description: > # this means to ignore newlines until "baseurl:"
  JuandeLS3 description
-baseurl: "https://juandels3.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juandels3.github.io/"
 permalink: :title/
 full-url: "https://juandels3.github.io/" # the base hostname & protocol for your site
