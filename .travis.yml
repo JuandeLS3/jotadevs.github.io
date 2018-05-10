@@ -1,15 +1,11 @@
 language: ruby
-cache: bundler
-sudo: false
-rvm: 2.3.3
 
-install: script/bootstrap
-script: script/cibuild
+rvm:
+- 2.5
 
-# deploy to gh_pages branch 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  on:
-    branch: master
+install: gem install jekyll jekyll-paginate jemoji html-proofer
+script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --empty-alt-ignore
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true JEKYLL_ENV=production

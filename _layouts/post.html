@@ -1,106 +1,67 @@
----
-layout: compress
----
-<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
-{% include head.html %}
+<!-- Post Layout Start -->
 
-<body class="site">
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
 
-{% if site.google_tag_manager %}
+  {% include head.html %}
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <body>
 
-{% endif %}
+    {% include navigation.html %}
 
-{% include header.html %}
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
 
-  {% if page.featured-img %}
+          {% include swipe-instructions.html %}
 
-  <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/{{page.featured-img}}.jpg">
-    {% else %}
-    <div class="hero dark-bg">
-      {% endif %}
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ page.title }}</h1>
-        <p class="hero__meta">
-            <span>
-              <time>{{ page.date | date_to_string }}</time>&nbsp;
-            </span>
-          <span>
-              {% assign words = content | number_of_words %}
-                {% if words < 360 %}
-                  1 min
-                {% else %}
-                  {{ words | divided_by:180 }} mins
-              {% endif %} read
-              &nbsp;
-          </span>
-        </p>
-      </div>
-    </div>
-  </div>
+          <h1><strong>{{ page.title }}</strong></h1>
+          <h4>
+            <strong>{{ page.date | date_to_string }}</strong>
+            <small>
+              . category:
+              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
+                {{ page.category }}
+              </a>.
+              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+              <br />
+              {% for tag in page.tags %}
+                <a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}.html">#{{ tag }}</a>
+              {% endfor %}
+            </small>
+          </h4>
 
-  <main class="site__content">
-    <div class="container">
-      <article class="post-content" itemprop="articleBody">
+          <section class="text-justify">
+            {{ page.content | markdownify }}
+          </section>
 
-        {{ content }}
+          {% include share.html %}
 
-      </article>
-      <div class="post-content controls__inner">
-        <div class="controls__item prev">
-          {% if page.previous.url %}
-
-          <span>Previous</span>
-          <a href="{{page.previous.url | relative_url }}">
-                <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
-                    <path fill="fillColor" d="M5.647 1.718c.37-.434.323-1.09-.106-1.465A1.016 1.016 0 0 0 4.095.36L.25 4.875a1.05 1.05 0 0 0 .017 1.378l3.95 4.407c.38.424 1.03.456 1.448.07a1.05 1.05 0 0 0 .07-1.468l-3.34-3.725 3.253-3.819z"/>
-                  </svg>
-              </span>
-            {{page.previous.title | strip_html | truncate: 30}}
-          </a>
+          {% if jekyll.environment == "production" %}
+            {% include comments.html %}
           {% endif %}
-        </div>
 
-        <div class="controls__item next">
-          {% if page.next.url %}
-          <span>Next</span>
-          <a href="{{page.next.url | relative_url }}">
-            {{page.next.title | strip_html | truncate: 30}}
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
-                  <path fill="#fillColor" d="M.353 9.282c-.37.434-.323 1.09.106 1.465a1.016 1.016 0 0 0 1.446-.107L5.75 6.125a1.05 1.05 0 0 0-.017-1.378L1.784.34A1.015 1.015 0 0 0 .336.27a1.05 1.05 0 0 0-.07 1.468l3.34 3.725L.353 9.282z"/>
-                </svg>
-              </span>
-          </a>
-          {% endif %}
+
+          <hr />
+
+          {% if site.author_blurb %}
+          <div class="author row">
+            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              {{ site.author_blurb }}
+            </p>
+          </div>
+          {% endif%}
         </div>
       </div>
-    </div>
+    </section>
 
-    {% if site.disqus.shortname %}
+    {% include footer.html %}
 
-    <div class="comments">
-      <div class="container">
-        <div class="post-content">
+    {% include js.html %}
 
-          {% include disqus.html %}
-
-        </div>
-      </div>
-    </div>
-
-    {% endif %}
-
-  </main>
-
-  {% include footer.html %}
-
-</body>
-
+  </body>
 </html>
+
+<!-- Post Layout End -->
