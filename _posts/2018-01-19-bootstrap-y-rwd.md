@@ -17,7 +17,7 @@ Según un análisis estadístico en 2016, el uso de internet lo **lideran los di
 Y aquí es donde entra en juego **Bootstrap**.  
 Bootstrap es un framework basado en HTML, CSS y Javascript para crear webs responsives 100%, adaptables a cualquier dispositivo. Este framework fue desarrollado por Twitter y se liberó en Agosto de 2011 como open source. A día de hoy, es de los proyectos más populares de Github y es usado por la NASA, entra otras organizaciones y webs importantes.
 
-![small image]({{site.baseurl}}/images/bootstrap.png
+![small image]({{site.baseurl}}/images/bootstrap.png)
 
 Lo más **destacable** de Bootstrap es:
 

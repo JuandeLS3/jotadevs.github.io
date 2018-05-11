@@ -14,12 +14,12 @@ Hoy vamos a hablar de **MIT App Inventor** tal y como prometí en posts anterior
 
 Obviamente no es un entorno que nos permite crear "grandes" aplicaciones debido a lo limitado que está. Es recomendable para aquellas personas que quieran curiosear o aprender en este gran mundo que es la programación de apps móvil, **pero no nos da mucho más que eso**.
 
-![small image]({{site.baseurl}}/images/appinventor_1.png
+![small image]({{site.baseurl}}/images/appinventor_1.png)
 
 El entorno que nos proporciona App Inventor es muy intuitivo, y está principalmente dividido en el modo Diseño y el modo Bloque. El modo diseño contiene la interfaz de usuario, el layout, los medios (imágenes, audio...), dibujo o animaciónes, mapas, sensores, social, etc. Dentro de cada categoría, tendremos elementos que podremos arrastrar directamente al "_viewer_", que es donde se visualiza el diseño de nuestra app. Cada componente tiene algunas propiedades que pueden ajustarse, y si, repito, algunas, ya que como he dicho anteriormente está muy limitado.  
 Luego tenemos el modo bloque, que es donde "se programa" a modo de puzle, un sistema parecido al de codecademy o al sistema de blueprints que usa Unreal Engine, pero mucho más didáctico.
 
-![small image]({{site.baseurl}}/images/appinventor_2.png
+![small image]({{site.baseurl}}/images/appinventor_2.png)
 
 ## ¿Qué opinas sobre App Inventor?
 
