@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparativa I: Drupal y Wordpress
+title: Comparativa I - Drupal y Wordpress
 description: Comparativa entre dos potentes pero muy diferentes gestores de contenidos. ¿Cuál se adapta mejor a nuestras necesidades?
 categories: code
 author: juandels3
