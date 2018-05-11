@@ -93,6 +93,13 @@
     }
 }
 
+#share-box-profile .fa {
+  margin-right: 15px;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
 .video {
   height: 360px !important;
   width:100% !important;
