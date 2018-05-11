@@ -50,7 +50,7 @@ include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
 author:
   name: JuandeLS3
-  image: juandels3100.jpg # The author image will be shown on the header. Place this image in /images/ folder.
+  image: juandels3.jpg # The author image will be shown on the header. Place this image in /images/ folder.
   about: About JuandeLS3
   twitter: JuandeLS3  # https://twitter.com/ is automatically added
   #facebook: webjeda # https://facebook.com/ is automatically added
