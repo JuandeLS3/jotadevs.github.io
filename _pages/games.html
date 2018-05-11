@@ -1,15 +1,13 @@
 ---
 layout: page
-permalink: /code/
-title: Code
+permalink: /games/
+title: Videogames
 ---
 
-  <div class="post-list">
-    {% for post in site.categories.code %}
+ <div class="post-list">
+    {% for post in site.categories.games %}
      <a href="{{ post.url | prepend: site.baseurl }}">
         {% include post-cards.html %}
       </a>
     {% endfor %}
   </div>
-
-
