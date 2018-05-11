@@ -23,19 +23,19 @@ sass:
 # Comments - Go to Disqus.com > sign up > get the short-name > insert it here
 disqus-shortname: 
 
-# Tracker
+# Tracker (editar)
 analytics: UA-83979019-1
 
 # Form Settings
 #
 # Contact form can be enabled by getting an API key from https://getsimpleform.com/
-simpleform-token: b6d4be9b039b666b3311e1ddcbfb577c
+simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 
 # Redirect users after submitting the form
 redirect-to: https://juandels3.github.io/thankyou
 
 # Site version
-version: 0.9
+version: 1.0
 
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
