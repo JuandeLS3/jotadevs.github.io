@@ -18,18 +18,6 @@ layout: default
    <span><i class="fa fa-tag" aria-hidden="true"></i> {% assign tags = page.categories %}{% for tag in tags %}{{tag}}{% unless forloop.last %},&nbsp;{% endunless %}{% endfor %}</span>
 {% endif %}
 
-
-{% assign words = content | strip_html | number_of_words %}
- &nbsp;&nbsp; 
-   <span><i class="fa fa-clock-o" aria-hidden="true"></i> 
-{% if words < 360 %}
- 1 min
-{% else %}
-  {{ words | divided_by:180 }} mins 
-{% endif %}
-</span>
-</p>
-
 </header>
 <div class="post-content" itemprop="articleBody">{{ content }}</div>
 
