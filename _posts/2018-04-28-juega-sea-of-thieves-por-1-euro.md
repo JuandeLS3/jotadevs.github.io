@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Comparativa I: Drupal y Wordpress
+title: Juega Sea of Thieves y más por 1 euro
 description: No pierdas la oportunidad de conseguir Sea of Thieves y más juegos por un euro
-categories: game
+categories: games
 author: juandels3
 ---
 
