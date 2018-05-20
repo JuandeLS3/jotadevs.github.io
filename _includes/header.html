@@ -7,12 +7,11 @@
 </nav>
 
 <div class="profile">
-    <p>Prueba</p>
+    {% include share-profile.html %}
 <a href="{{site.baseurl}}/">
 <img class="author-image" alt="site-title" src="{{site.baseurl}}/images/{{site.author.image}}">
 </a>
 <h1 class="author-about">{{site.author.name}}</h1>
-{% include share-profile.html %}
 </div>
 <div class="menu-category">
 <div class="menu-item"><a class="{% if page.url == '/code/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/code/">Code</a></div>
