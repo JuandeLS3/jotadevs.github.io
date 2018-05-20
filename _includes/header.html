@@ -7,11 +7,17 @@
 </nav>
 
 <div class="profile">
-    {% include share-profile.html %}
 <a href="{{site.baseurl}}/">
 <img class="author-image" alt="site-title" src="{{site.baseurl}}/images/{{site.author.image}}">
 </a>
 <h1 class="author-about">{{site.author.name}}</h1>
+    {% if site.twitter_username %}
+    <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+            <i class="fa fa-twitter"></i> Twitter
+        </a>
+    </li>
+    {% endif %}
 </div>
 <div class="menu-category">
 <div class="menu-item"><a class="{% if page.url == '/code/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/code/">Code</a></div>
