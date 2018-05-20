@@ -15,7 +15,7 @@ Pero para empezar... ¿qué es github? GitHub es una potente plataforma de desar
 
 Esta plataforma de desarrollo nos permite alojar una **cuentra gratuita con repositorios públicos ilimitados**, y sí, repito bien, públicos. En caso de que queramos tener repositorios privados, tendremos que hacernos con una cuenta de pago, cuya cuota mínima sería de 7$/mes, que nos permitiría **5 repositorios privados**. Pero ya os informo, que la comunidad se mueve más por repositorios **públicos**, es decir, totalmente gratuito. Ahí está la "chicha" de Github.
 
-![right-red@2x]({{site.baseurl}}/images/github_1.png)
+![right-red@2x]({{site.baseurl}}/images/github-2.png)
 
 Un **fork** es simplemente clonar un repositorio ajeno y empezar a trabajar en él, a través de esa copia sin modificar el original. Una vez modificado, podemos subirlo a nuestro repositorio remoto y realizar al usuario de dicho proyecto lo que se denomina como "**pull request**". Esto no es más que una petición al usuario de los cambios que has implementado en su proyecto, pudiendo rechazar o aceptar los cambios (**merge**).
 

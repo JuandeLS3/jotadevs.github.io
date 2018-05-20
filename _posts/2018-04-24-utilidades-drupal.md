@@ -18,11 +18,15 @@ Composer es como el queso para un ratón, pero ese ratón siendo Drupal. Es una 
 
 -   Para instalar composer lo haremos ejecutando el siguiente comando.
 
-[code language="bash"] curl -sS https://getcomposer.org/installer | phpsudo mv composer.phar /usr/local/bin/composer [/code]
+{% highlight bash %}
+curl -sS https://getcomposer.org/installer | phpsudo mv composer.phar /usr/local/bin/composer
+{% endhighlight %}
 
 -   Si hemos instalado drupal a partir de drupal-project, éste nos vendrá directamente con composer instalado y listo para usar en todo nuestro proyecto.
 
-[code language="bash"] composer create-project drupal-composer/drupal-project:8.x-dev some-dir --stability dev --no-interaction [/code]
+{% highlight bash %}
+composer create-project drupal-composer/drupal-project:8.x-dev some-dir --stability dev --no-interaction
+{% endhighlight %}
 
 Drupal-project no es más que un template o plantilla realizada en composer, que realiza la descarga de las librerías y dependencias que usa la versión de Drupal concretada en el comando.
 
@@ -37,7 +41,9 @@ Junto con composer, es de las herramientas que más he usado. Drush es una herra
 -   Por la web oficial: http://docs.drush.org/en/master/install/
 -   Mediante composer:
 
-[code language="bash"] composer global require drush/drush sudo ln -s ~/.composer/vendor/drush/drush/drush /usr/bin/drush [/code]
+{% highlight bash %}
+composer global require drush/drush sudo ln -s ~/.composer/vendor/drush/drush/drush /usr/bin/drush
+{% endhighlight %}
 
 -   Si hemos instalado drupal a partir de drupal-project, éste nos vendrá directamente con la herramienta instalada.
 
@@ -59,7 +65,10 @@ Es otra herramienta de línea de comandos, basada en la consola de [Symfony](htt
 
 -   Instalación global con composer
 
-[code language="bash"] composer global require drupal/console [/code]
+{% highlight bash %}
+composer global require drupal/console
+{% endhighlight %}
+
 
 -   Al igual que Drush, con drupal-project viene instalada esta utilidad.
 

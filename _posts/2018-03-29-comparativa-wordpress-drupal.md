@@ -76,10 +76,10 @@ Si quieres crear una web empresarial o para una empresa o simplemente una web qu
 
 Drupal “solo” lo usa un 2,1% de las webs del mundo. Ese “solo” se debe a webs como:
 
--   Grandes compañías | [Ubuntu](http://www.ubuntu.com/) | [IKEA](http://livethemma.ikea.se/play)
--   Periódicos | [The Economist](http://www.economist.com/)
--   Televisiones | [MTV](http://www.mtv.co.uk)
--   Gobiernos | [La Casa Blanca](http://www.whitehouse.gov/) | [Ayuntamiento de Londres](http://www.london.gov.uk/) | [Senado de Nueva York](http://www.nysenate.gov/) | [Casa Real Bélgica](http://www.monarchie.be)
--   Organizaciones | [Unicef](http://www.unicef.be/fr)
--   Centros de educación | [Universidad de Jersey](http://www.rutgers.edu/)
--   Museos | [Louvre](http://louvre.fr)
+-   Grandes compañías [Ubuntu](http://www.ubuntu.com/) [IKEA](http://livethemma.ikea.se/play)
+-   Periódicos [The Economist](http://www.economist.com/)
+-   Televisiones [MTV](http://www.mtv.co.uk)
+-   Gobiernos [La Casa Blanca](http://www.whitehouse.gov/) [Ayuntamiento de Londres](http://www.london.gov.uk/) [Senado de Nueva York](http://www.nysenate.gov/) [Casa Real Bélgica](http://www.monarchie.be)
+-   Organizaciones [Unicef](http://www.unicef.be/fr)
+-   Centros de educación [Universidad de Jersey](http://www.rutgers.edu/)
+-   Museos [Louvre](http://louvre.fr)
