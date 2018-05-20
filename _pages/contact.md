@@ -7,7 +7,7 @@ active: active
 ---
 
 
-Si tiene alguna sugerencia o necesita contactarme en privado, rellene el siguiente formulario.
+Si tienes alguna sugerencia o necesitas comentarme algo personalmente, no dudes en contactarme mediante el siguiente formulario.
 
 <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token={{site.simpleform-token}}" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
