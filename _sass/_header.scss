@@ -146,11 +146,11 @@
 .twitter span {
     background-color: #4099ff;
 }
-.facebook span {
+.linkedin span {
     background-color: #3B5998;
 }
-.google-plus span {
-    background-color: #db5a3c;
+.github span {
+    background-color: #24292e;
 }
 
 /* Icons */
@@ -172,14 +172,14 @@
 .icon-button .icon-twitter {
     color: #4099ff;
 }
-.icon-button .icon-facebook {
+.icon-button .icon-linkedin {
     color: #3B5998;
 }
-.icon-button .icon-google-plus {
+.icon-button .icon-github {
     color: #db5a3c;
 }
 .icon-button:hover .icon-twitter,
-.icon-button:hover .icon-facebook,
-.icon-button:hover .icon-google-plus {
+.icon-button:hover .icon-linkedin,
+.icon-button:hover .icon-github {
     color: white;
 }
