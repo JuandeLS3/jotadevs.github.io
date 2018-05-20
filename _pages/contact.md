@@ -13,19 +13,19 @@ Si tiene alguna sugerencia o necesita contactarme en privado, rellene el siguien
         <ul class="contact-ul">
             <li class="contact-li">
                 <label class="contact-label" for="name">Nombre:</label>
-                <input type="text" placeholder="Tu nombre" id="name" class="contact-input" name="name" tabindex="1"/>
+                <input required type="text" placeholder="Tu nombre" id="name" class="contact-input" name="name" tabindex="1"/>
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="email">Email:</label>
-                <input type="email" placeholder="Tu correo electrónico" id="email" class="contact-input" name="email" tabindex="2"/>
+                <input required type="email" placeholder="Tu correo electrónico" id="email" class="contact-input" name="email" tabindex="2"/>
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="message">Mensaje:</label>
-                <textarea class="contact-textarea" placeholder="Escribe aquí tu mensaje" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
+                <textarea required class="contact-textarea" placeholder="Escribe aquí tu mensaje" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
             </li>
             
         </ul>
-        <input type="submit" value="Send" id="submit"/>
+        <input type="submit" value="Enviar" id="submit"/>
         <input type="hidden" name='redirect_to' value="{{site.redirect-to}}" />
         
 </form>

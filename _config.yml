@@ -32,7 +32,7 @@ analytics: UA-83979019-1
 simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 
 # Redirect users after submitting the form
-redirect-to: https://juandels3.github.io/thankyou
+redirect-to: https://juandels3.github.io/
 
 # Site version
 version: 1.0
