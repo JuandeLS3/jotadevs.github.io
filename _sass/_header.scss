@@ -106,11 +106,11 @@
 /* Wrapper */
 .icon-button {
     background-color: white;
-    border-radius: 2.6rem;
+    border-radius: 3.6rem;
     cursor: pointer;
     display: inline-block !important;
     font-size: 2.0rem;
-    height: 2.6rem !important;
+    height: 3.6rem !important;
     line-height: 3.6rem;
     margin: 0 5px;
     position: relative;
@@ -119,7 +119,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 2.6rem !important;
+    width: 3.6rem !important;
 }
 
 /* Circle */
@@ -138,9 +138,9 @@
     width: 0;
 }
 .icon-button:hover span {
-    width: 2.6rem;
-    height: 2.6rem;
-    border-radius: 2.6rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 3.6rem;
     margin: -1.8rem;
 }
 .twitter span {
@@ -157,7 +157,7 @@
 .icon-button i {
     background: none;
     color: white;
-    height: 2.6rem;
+    height: 3.6rem;
     left: 0;
     line-height: 3.6rem;
     position: absolute;
