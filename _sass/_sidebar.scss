@@ -6,7 +6,7 @@
     z-index: 9999; /* Stay on top */
     top: 0;
     left: 0;
-    background: #00aced;
+    background: #b3d8e6;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 10%; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -23,8 +23,9 @@
     }
 }
 
-thindevimage {
+.thindevimage {
     left: 0;
+    
 }
 
 /* The navigation menu links */
@@ -32,14 +33,14 @@ thindevimage {
     padding: 8px 8px 8px 22px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #002a59;
     display: block;
     transition: 0.1s
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
-    color: #9e9e9e;
+    color: #000;
 }
 
 /* Position and style the close button (top right corner) */
