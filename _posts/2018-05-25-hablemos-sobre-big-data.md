@@ -6,7 +6,7 @@ categories: code
 author: juandels3
 ---
 
-
+![small image](http://static.america-retail.com/2018/04/what-is-big-data.png)
 Hola a tod@s y bienvenidos al primer post oficial del [nuevo site](https://juandels3.github.io/). En primer lugar darte las gracias por seguir al tanto de mi blog, incluso después de la migración de web, de Wordpress a Github/**Jekyll**, donde muy pronto hablaremos sobre dicha tecnología.
 
 Hoy quería dedicar el post a un tema un tanto popular, pero complejo de definir: el **Big Data** o "Datos a gran escala" en su traducción al español. En 2013 Dan Ariely, profesor de psicología y economía conductual de la universidad Duke publicó en su muro de Facebook lo siguiente:
