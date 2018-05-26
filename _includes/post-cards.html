@@ -22,8 +22,8 @@
 {% assign postDay = post.date | date: "%j" | plus: 0 %}
 
 {%- if latestPost_year == postYear and postDay > latestPost_day_minus_week and postDay <= latestPost_day  -%}
-<a id="new" href="{{ post.url }}">¡RECIENTE!</a>
-<div class="post-box">
+<a id="tagnew" href="{{ post.url }}">¡RECIENTE!</a>
+<div class="post-box" id="newpost">
     {% if post.categories %}
     <div class="ribbon"><span>{{post.categories | first}}</span></div>
     {% endif %}
