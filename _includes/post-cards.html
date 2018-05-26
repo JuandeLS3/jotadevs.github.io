@@ -1,47 +1,29 @@
 
-{% if site.change-date-bg %}
-<div class="post-box">
-{% if post.categories %}
-<div class="ribbon"><span>{{post.categories | first}}</span></div>
-{% endif %}
-<div class="post-meta" style="background: #7687C5;background: -webkit-linear-gradient(to top, #7687C5 , #3F4CE4);background: linear-gradient(to top, #7687C5 , #3F4CE4);"><h1 class="date">{{ post.date | date: "%-d" }}</h1>
-<span>{{ post.date | date: "%b" }}</span></div>
-<div class="post-title-box">
-<p class="post-link">{{ post.title | truncate: 40 }}</p>
-<p class="post-excerpt">{{ post.description | strip_html | truncate: 120 }}</p>
-</div>
-</div>
+{% assign timeframe = 2419200 %}
+{% assign maxposts = 10 %}
+{% assign date_format = site.minima.date_format | default: "%m/%d" %}
 
-{% else %}
+<ul class="post-list text-muted list-unstyled">
+    {% for post in site.posts limit: maxposts %}
+    {% assign post_in_seconds = post.last_modified_at | date: "%s" | plus: 0 %}
+    {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
+    {% assign post_updated = post.last_modified_at | date: date_format %}
+    {% capture post_date %}<small>{{ post.date | date: date_format }}</small>{% endcapture %}
 
-
-<div class="post-box">
-{% if post.categories %}
-<div class="ribbon"><span>{{post.categories | first}}</span></div>
-{% endif %}
-<div class="post-meta"><h1 class="date">{{ post.date | date: "%-d" }}</h1>
-<span>{{ post.date | date: "%b" }}</span></div>
-<div class="post-title-box">
-<p class="post-link">{{ post.title | truncate: 40 }}</p>
-<p class="post-excerpt">{{ post.description | strip_html | truncate: 120 }}</p>
-</div>
-</div>
-{% endif %}
-
-
-{% if site.change-date-bg %}
-<style>
-.ribbon span {
-  background: {{site.color-2}};
-  background: linear-gradient({{site.color-2}} 0%, {{site.color-1}} 100%);
-}
-.ribbon span::before {
-  border-left: 3px solid {{site.color-1}};
-  border-top: 3px solid {{site.color-1}};
-}
-.ribbon span::after {
-  border-right: 3px solid {{site.color-1}};
-  border-top: 3px solid {{site.color-1}};
-}
-</style>
-{% endif %}
+    {% if post_in_seconds > recent_posts %}
+    {% capture label_new %}<span class="label label-primary">new</span>{% endcapture %}
+    {% if post.last_modified_at > post.date %}
+    {% assign label_new = '' %}{% comment %}Clear NEW if modified{% endcomment %}
+    {% capture label_updated %}<span class="label label-info">Updated <span class="badge">{{ post_updated }}</span></span>{% endcapture %}
+    {% endif %}
+    {% endif %}
+    <li>
+        <h4>{{ post_date }}
+            <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}</a> {{ label_new }}{{ label_updated }}
+        </h4>
+    </li>
+    {% assign post_date = '' %}
+    {% assign label_updated = '' %}
+    {% endfor %}
+</ul>
