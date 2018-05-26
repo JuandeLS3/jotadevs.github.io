@@ -120,6 +120,11 @@ p.post-excerpt {
   position: absolute;
   top: 19px; right: -21px;
 }
+
+#tagnew {
+  background: linear-gradient(#E61A1A 0%, #FFBD20  100%); !important;
+}
+
 .ribbon span::before {
   content: "";
   position: absolute; left: 0px; top: 100%;
