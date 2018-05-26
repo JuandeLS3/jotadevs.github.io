@@ -9,7 +9,7 @@
 title: JuandeLS3
 author: JuandeLS3
 description: > # this means to ignore newlines until "baseurl:"
- JuandeLS3 description
+ Blog de JuandeLS3 ~ Sevillano y Desarrollador de Aplicaciones Web
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juandels3.github.io/"
 permalink: :title/
@@ -35,7 +35,7 @@ simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 redirect-to: https://juandels3.github.io/
 
 # Site version
-version: 1.0
+version: 1.1
 
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
@@ -51,7 +51,9 @@ include: [_pages] # Includes files inside _pages directory [Do not remove this]
 author:
   name: JuandeLS3
   image: juandels3.jpg # The author image will be shown on the header. Place this image in /images/ folder.
-  about: About JuandeLS3
+  about: Nací en España y resido actualmente en Sevilla, Andalucía.
+         Estudio Desarrollo de Aplicaciones Web en el IES Polígono Sur y me encanta el mundo del
+         desarrollo en general y los videojuegos.
   twitter: JuandeLS3  # https://twitter.com/ is automatically added
   #facebook: webjeda # https://facebook.com/ is automatically added
   email: juandelsal3@gmail.com # mailto: is automatically added

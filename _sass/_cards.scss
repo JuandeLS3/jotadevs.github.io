@@ -18,6 +18,16 @@
     }
 }
 
+#newpost {
+  box-shadow: 0 5px 10px -5px #E61A1A;
+  -webkit-box-shadow: 0 5px 10px -5px #E61A1A;
+  -moz-box-shadow: 0 5px 10px -5px #E61A1A;
+  &:hover{
+    box-shadow: 0 7px 10px -4px #FFBD20;
+    -webkit-box-shadow: 0 7px 10px -4px #FFBD20;
+    -moz-box-shadow: 0 7px 10px -4px #FFBD20;
+  }
+}
 
 .post-meta {
     display: inline-block;
