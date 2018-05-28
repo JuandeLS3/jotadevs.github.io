@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Hablemos sobre Big Data
-description: Seguro que has oído hablar alguna vez sobre Big Data. Pero, ¿sabes todo lo que se encierra detrás realmente?
-categories: code
+title: Battlefield V no tendrá Premium
+description: EA y DICE han decidido dar gratuitamente todos los DLC a los que compren su juego
+categories: games
 author: juandels3
 ---
 
