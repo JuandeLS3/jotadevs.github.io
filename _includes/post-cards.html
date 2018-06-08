@@ -21,7 +21,7 @@
 {% assign postYear = post.date | date: "%Y" %}
 {% assign postDay = post.date | date: "%j" | plus: 0 %}
 
-{%- if currentYear == postYear and postDay < currentDay_minus_week and postDay <= currentDay  -%}
+{%- if latestPost_year == postYear and latestPost_week == postWeek -%}
 <div class="post-box" id="newpost">
     {% if post.categories %}
     <div class="ribbon"><span>{{post.categories | first}}</span><span id="tagnew">¡RECIENTE!</span></div>

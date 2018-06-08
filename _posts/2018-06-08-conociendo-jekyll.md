@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conociendo jekyll
-description: Os cuento por qué decidí mi migración de Wordpress a Jekyll en mi blog
+description: Jekyll es fantástico a la hora de ofrecer contenido estático
 categories: code
 author: juandels3
 ---
