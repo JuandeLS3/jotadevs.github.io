@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Battlefield V no tendrá Premium
-description: EA y DICE han decidido dar gratuitamente todos los DLC a los que compren su juego
+title: Conociendo jekyll
+description: Os cuento por qué decidí mi migración de Wordpress a Jekyll en mi blog
 categories: code
 author: juandels3
 ---
