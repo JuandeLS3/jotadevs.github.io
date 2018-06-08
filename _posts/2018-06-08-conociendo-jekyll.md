@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conociendo jekyll
-description: Jekyll es fantástico a la hora de ofrecer contenido estático
+description: Jekyll es fantástico a la hora de ofrecer contenido estático. En este post veremos qué puede ofrecernos
 categories: code
 author: juandels3
 ---
