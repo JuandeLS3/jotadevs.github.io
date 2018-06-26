@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mi experiencia en el proyecto integrado 2018
-description: Os hablo de lo que ha sido mi experiencia y el día a día en el desarrollo del proyecto integrado 2018 para el IES Polígono Sur
+title: Proyecto integrado 2018
+description: Os hablo de mi experiencia en el desarrollo del PI 2018 para el IES Polígono Sur
 categories: code
 author: juandels3
 ---
