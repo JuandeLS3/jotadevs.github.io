@@ -38,6 +38,27 @@ El workflow ha sido un constante cúmulo de comunicación entre los miembros del
 ## Mi trabajo en el proyecto
 Como ya he dicho anteriormente, mi cometido en el proyecto ha sido la parte back-end de la aplicación. He puesto especial énfasis y esfuerzo en los filtros de búsqueda de las actividades, pudiendo filtrarlas por una lista de tipos de actividades dinámicas, que cambian conformen se añadan más tipos de actividades en la base de datos, por provincia y precio. También quiero destacar que estos filtros funcionan mediante ajax, y por tanto las peticiones a la bd se hacen sin recargar la página, dando una mejor experiencia al usuario final. También he implantado ajax en otras funcionalidades, como la validación en el inicio de sesión.
 Muchas otras funcionalidades las he trabajado en conjunto con mi compañero de back.
+También he implementado funciones a usar a la hora de realizar notificaciones al usuario, haciendo uso de la siguiente función en js:
+
+{% highlight javascript %}
+// Función que obtiene un parámetro get.
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+{% endhighlight %}
+
+
 
 ![small image]({{site.baseurl}}/images/filtros.png)
 
