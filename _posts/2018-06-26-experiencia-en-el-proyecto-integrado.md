@@ -58,7 +58,71 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 {% endhighlight %}
 
+El código que he usado para realizar peticiones ajax ha sido el siguiente:
 
+{% highlight javascript %}
+$.post("php/filter.php", {tipo_actividad: tipo_actividad}, function (data) { // Le pasamos el tipo de actividad, que es lo que se procesará en servidor
+        $(".tabla").empty();
+        data = $.parseJSON(data);
+        /* Bloque de comprobación de disponibilidad de ofertas */
+        if (data.length === 0) {
+            $(".tabla").append("<div id='titulo_filtro'><h3>Actividades de " + tipo_actividad + "</h3><hr style='width: 90%'/>");
+            $("#no_offers").remove();
+            $(".offers").append("<div id='no_offers'><span class='alert alert-info'><span class='glyphicon glyphicon-info-sign'></span> No hay ofertas disponibles con el filtro seleccionado</span></div>");
+            $("#cargar").hide();
+        } else {
+            $("#cargar").show();
+            $("#no_offers").remove();
+            $(".tabla").append("<div id='titulo_filtro'><h3>Actividades de " + tipo_actividad + "</h3><hr style='width: 90%'/>");
+            for (var i = 0; i <= data.length-1; i++) {
+                $(".tabla").append(
+                    "<div class=\"snip1208 col-md-4 col-xs-12 col-lg-3 col-sm-6\">" +
+                    "<div class=\"aaa\">"+
+                    "<img src='img/oferta/"+data[i].imagen_oferta+"' alt='sample66'/>"+
+                    "<figcaption>"+
+                    "<h3 id='nombre'>"+data[i].nombre+"</h3>"+
+                    "<p id='actividad'>Actividad: " + data[i].tipo_actividad + "</p>" +
+                    "<p id='provincia'>Provincia: " + data[i].provincia + "</p>" +
+                    "<p id='dificultad'>Dificultad: " + data[i].dificultad + "</p>" +
+                    "<p id='precio'>Precio " + data[i].precio + "€</p>"+
+                    "<button>Ver actividad</button>"+
+                    "</figcaption><a href='content/oferta.php?id="+data[i].id+"'></a>"+
+                    "</div></div>");
+            }
+        }
+    });
+{% endhighlight %}
+
+El código anterior, recibe de un radio un tipo de actividad, para enviarsela a través de $.post por ajax a filter.php, el cual tiene el siguiente código:
+
+{% highlight php %}
+/* Si se recibe solo una actividad... */
+if (isset($_POST['tipo_actividad']) && empty($_POST['precio'])) {
+    $actividad = $_POST['tipo_actividad']; // Actividad a filtrar por el usuario
+    $res=[];
+    $sql = "select * from oferta where tipo_actividad = "."'$actividad'" . " ORDER BY fecha_inicio DESC LIMIT 50";
+
+    $resultado = $conexion->query($sql);
+
+    while($row = $resultado->fetch_object()){
+        $fila=array(
+            "id"=>$row->id,
+            "nombre"=>$row->nombre,
+            "tipo_actividad"=>$row->tipo_actividad,
+            "provincia"=>$row->provincia,
+            "dificultad"=>$row->dificultad,
+            "precio"=>$row->precio,
+            "imagen_oferta"=>$row->imagen_oferta
+        );
+        array_push($res, $fila);
+    }
+    echo json_encode($res);
+    $resultado->free();
+    $conexion->close();
+}
+{% endhighlight %}
+
+El código anterior recibe el tipo de actividad y ejecuta la query en la base de datos, para finalmente enviarla de nuevo al js, que dibujará el html con los datos recibidos de la bd.
 
 ![small image]({{site.baseurl}}/images/filtros.png)
 
