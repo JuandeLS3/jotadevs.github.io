@@ -123,6 +123,7 @@ if (isset($_POST['tipo_actividad']) && empty($_POST['precio'])) {
 {% endhighlight %}
 
 El código anterior recibe el tipo de actividad y ejecuta la query en la base de datos, para finalmente enviarla de nuevo al js, que dibujará el html con los datos recibidos de la bd.
+Si quieres ver todo el código, lo tienes disponible en mi repositorio de Github.
 
 ![small image]({{site.baseurl}}/images/filtros.png)
 
