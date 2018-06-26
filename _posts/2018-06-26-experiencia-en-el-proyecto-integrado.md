@@ -50,6 +50,5 @@ Aún así, estoy orgulloso del resultado final de la aplicación y creo que cump
 
 ## Mi experiencia
 Personalmente me ha encantado este proyecto y me ha ayudado muchísimo a aprender cosas básicas e intermedias de PHP, cosas que al pelearte día si y día también coges del bolsillo el día mañana y lo implementas sin apenas dificultad *(¡siempre hay errores inesperados!*) 
-Mi nota en este proyecto ha sido de un 9; no tengo nada que decir en contra, debido a que un 10 era excesivo por lo comentado anteriormente.
 
-Ha sido fantástico poder trabajar con mis 4 compañeros en esta corta pero frenética, e inolvidable experiencia que supone el proyecto integrado para el I.E.S Polígono Sur. También agradecer a nuestros profesores por ser justos a la vez que justificados con la corrección. Esto fue el primer proyecto de alta importancia, pero no el último, ¡eso está claro!
+Ha sido fantástico poder trabajar con mis 4 compañeros en esta corta pero frenética, e inolvidable experiencia que supone el proyecto integrado para el I.E.S Polígono Sur. También agradecer a nuestros profesores por ser justos a la vez que justificados con la corrección.
