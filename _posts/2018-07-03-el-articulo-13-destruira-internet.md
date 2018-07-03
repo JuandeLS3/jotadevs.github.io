@@ -1,6 +1,6 @@
 ---
 layout: post
-title: El artículo 13 destruirá internet
+title: El artículo 13 de la UE destruirá internet
 description: Las nuevas propuestas para el copyright destruirán internet tal y como lo conocemos
 categories: code
 author: juandels3
