@@ -22,7 +22,7 @@ Este artículo es una clara amenaza a nuestra privacidad y al internet abierto y
 ![small image]({{site.baseurl}}/images/error-ig2.png)
 
 ## ARTÍCULO 11: impuestos en los enlaces
-Este artículo tiene mejor repercusión mediática pero no hay que darle menor importancia ni mucho menos. Este artículo pretende que las plataformas eviten que sus usuarios (nosotros) compartamos enlaces con fragmentos de texto si no tenemos licencia para ello. Esto quiere decir, que las plataformas (redes sociales, wikis, repositorios, etc...) nos limitará severamente compartir enlaces en éstas si no tenemos licencia, haciendo que el redactor "tenga absoluto control en su texto".
+Este artículo pretende que las plataformas eviten que sus usuarios (nosotros) compartamos enlaces con fragmentos de texto si no tenemos licencia para ello. Esto quiere decir, que las plataformas (redes sociales, wikis, repositorios, etc...) nos limitarán severamente compartir enlaces en éstas si no tenemos licencia, haciendo que el redactor "tenga absoluto control en su texto".
 
 Este artículo igualmente me parece una patada en el pecho a internet, ya que impide el flujo de información tal y como lo conocemos hoy, evitando que podamos compartir noticias en nuestras redes sociales y lógicamente, que incluyamos fragmentos de texto de éstas noticias en nuestro blog o página web personal.
 
