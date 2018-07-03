@@ -20,7 +20,6 @@ Personalmente, este artículo me parece un insulto a la inteligencia y un claro 
 Este artículo es una clara amenaza a nuestra privacidad y al internet abierto y saludable que tenemos actualmente. Una ley que puede acabar con PYMES y pequeñas empresas, ya que claro, no todas éstas podrán aplicar estos "filtros de censura" debido al coste que pueden conllevar, y si no lo aplican pueden llegar a ser multadas.
 
 ![small image]({{site.baseurl}}/images/error-ig2.png)
-![small image]({{site.baseurl}}/images/error-snap3.jpg)
 
 ## ARTÍCULO 11: impuestos en los enlaces
 Este artículo tiene mejor repercusión mediática pero no hay que darle menor importancia ni mucho menos. Este artículo pretende que las plataformas eviten que sus usuarios (nosotros) compartamos enlaces con fragmentos de texto si no tenemos licencia para ello. Esto quiere decir, que las plataformas (redes sociales, wikis, repositorios, etc...) nos limitará severamente compartir enlaces en éstas si no tenemos licencia, haciendo que el redactor "tenga absoluto control en su texto".
@@ -30,6 +29,8 @@ Este artículo igualmente me parece una patada en el pecho a internet, ya que im
 ## Impacto mediático
 Como ya he dicho anteriormente, esto nos afecta A TODOS los que usamos internet, que hoy en día somos el 99,99%. Las grandes plataformas están totalmente en contra de estas propuestas a ley en Europa. Grandes como Github han publicado de forma jocosa en su blog las graves consecuencias que tendrían éstas leyes en el repositorio. También lo ha hecho Wikipedia Italia, que en protesta ha bloqueado a los lectores sus páginas este martes 3 de Julio, o Mozilla en su [blog](https://blog.mozilla.org/blog/2017/09/11/copyright-vote-change-europes-internet/), instando a los ciudadanos de la UE a exigir mejores reformas.
 En twitter también se está usando el hashtag **#SaveYourInternet** donde miles de usuarios protestan con indignación estas propuestan que se votarán el 5 de Julio.
+
+![small image]({{site.baseurl}}/images/error-snap3.jpg)
 
 ## Cómo ayudar
 Si quieres aportar y luchar por el internet que tenemos hoy en día y así evitar que se apliquen estas leyes, **¡puedes hacerlo!**. En la web de [SaveYourInternet](https://saveyourinternet.eu/) se explica y actualiza cómo progresa el estado de las propuestas a ley del parlamento europeo, además de explicarte las formas en la que puedes ayudar a detener estas reglas absurdas contra el copyright, ya se enviando un correo o llamando por teléfono a tu MEP (Representante del Parlamento Europeo). También puedes twittear con el hashtag #SaveYourInternet. Otras instituciones como Mozilla, facilitan el contacto con los representantes del Parlamento Europeo en su página web [ChangeCopyright](https://changecopyright.org/en-US/).
