@@ -20,6 +20,7 @@ Personalmente, este artículo me parece un insulto a la inteligencia y un claro 
 Este artículo es una clara amenaza a nuestra privacidad y al internet abierto y saludable que tenemos actualmente. Una ley que puede acabar con PYMES y pequeñas empresas, ya que claro, no todas éstas podrán aplicar estos "filtros de censura" debido al coste que pueden conllevar, y si no lo aplican pueden llegar a ser multadas.
 
 ![small image]({{site.baseurl}}/images/error-ig2.png)
+![small image]({{site.baseurl}}/images/error-snap3.jpg)
 
 ## ARTÍCULO 11: impuestos en los enlaces
 Este artículo tiene mejor repercusión mediática pero no hay que darle menor importancia ni mucho menos. Este artículo pretende que las plataformas eviten que sus usuarios (nosotros) compartamos enlaces con fragmentos de texto si no tenemos licencia para ello. Esto quiere decir, que las plataformas (redes sociales, wikis, repositorios, etc...) nos limitará severamente compartir enlaces en éstas si no tenemos licencia, haciendo que el redactor "tenga absoluto control en su texto".
