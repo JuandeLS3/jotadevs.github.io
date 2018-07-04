@@ -41,6 +41,6 @@ Si quieres saber más sobre este tema, te dejo [este enlace](https://juliareda.e
 Por favor, comparte esta entrada de mi blog, escribe con el hashtag #SaveYourInternet + tu opinión o realiza alguna de las anteriores acciones en [SaveYourInternet](https://saveyourinternet.eu/). ¡Levántate y protesta en contra de estas abusivas propuestas!
 
 ## Mi opinión
-Creo que estas dos propuestas son un **claro paso atrás en el internet de hoy día**, negándonos el derecho a compartir, a expresarnos, a informarnos... estoy a favor que se instauren leyes a favor del copyright para proteger los derechos de autor, pero deben ser leyes que tengan coherencia y no choquen con nuestra libertad de expresión. Porque pienso que la evolución tecnológica siempre se ha conseguido **copiando y mejorando** lo que ya teníamos, siempre ha sido así.
+Creo que estas dos propuestas son un **claro paso atrás en el internet de hoy día**, negándonos el derecho a compartir, a expresarnos, a informarnos... estoy a favor de que se instauren leyes  para proteger los derechos de autor, pero deben ser leyes que tengan coherencia y no choquen con nuestra libertad de expresión. Porque pienso que la evolución tecnológica siempre se ha conseguido **copiando y mejorando** lo que ya teníamos, siempre ha sido así. 
 
 ![small image]({{site.baseurl}}/images/article 13 2.png)
