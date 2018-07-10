@@ -8,6 +8,9 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/hashtagBIG.png)
 
+***Actualización***:
+los artículo 11 y 13 han sido rechazados hasta la próxima cita, que será del 11 al 13 de Septiembre, donde se volverá a debatir esta reforma del copyright en una jornada más amplia, que se prevén que serán intensas. Se ha ganado la batalla pero no la guerra, así que estaremos al tanto
+
 ¡Buenas a tod@s!
 
 Hoy quiero comentar un tema **muy importante** el cual he decidido categorizar en 'code', porque afecta tanto al código en particular, como al internet en general; se trata del **artículo 13** y el **artículo 11**.
