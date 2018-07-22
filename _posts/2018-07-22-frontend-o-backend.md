@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Frontend o backend
-description: Vistazo a estos dos perfiles y cual me apasiona actualmente
+description: Vistazo a estos dos perfiles en el mundo del desarrollo web y cual de ellos me apasiona actualmente
 categories: code
 author: juandels3
 ---
