@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Frontend o backend
-description: Vistazo a estos dos perfiles en el mundo del desarrollo web y cual de ellos me apasiona actualmente
+title: El poder de las redes sociales
+description: Si usas redes sociales, estás dejando un rastro de migas de pan...
 categories: code
 author: juandels3
 ---
