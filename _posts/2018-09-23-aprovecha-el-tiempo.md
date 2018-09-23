@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aprovecha el tiempo
-description: El tiempo pasa rápido, aprovecharlo no es más que hacer y disfrutar lo que te gusta
+description: El tiempo pasa rápido, aprovecharlo no es más que disfrutar lo que estás haciendo
 categories: life
 author: juandels3
 ---
