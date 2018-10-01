@@ -3,7 +3,7 @@ layout: post
 title: TOP 5 BSO de videojuegos
 description: En este post os desvelo mi top 5 bandas sonoras favoritas de videojuegos.
 author: juandels3
-categories: videogames
+categories: games
 ---
 
 ![small image]({{site.baseurl}}/images/videogames.jpg)
