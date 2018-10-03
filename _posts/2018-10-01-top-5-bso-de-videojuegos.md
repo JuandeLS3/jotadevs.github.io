@@ -30,7 +30,7 @@ Cuando escuchas una banda sonora de un videojuego que has jugado y se te siguen 
 
 
 2-. **Call of Duty: Modern Warfare 2** ([https://www.youtube.com/watch?v=Qsp3Z25u6VI](https://www.youtube.com/watch?v=Qsp3Z25u6VI))
-No se si será porque es mi shooter/FPS favorito de todos los tiempos, o porque está compuesta por el gran Hans Zimmer, pero la BSO de MW2 es para mí intocable. Es ese tipo de música que necesito escuchar para concentrarme o relajarme en mi día a día. Me transmite muchísimos recuerdos de un juego el cual me hizo conocer mucha gente y pasar muy buenos momentos en una etapa de mi vida. Está claro que 
+No se si será porque es mi shooter/FPS favorito de todos los tiempos, o porque está compuesta por el gran Hans Zimmer, pero la BSO de MW2 es para mí intocable. Es ese tipo de música que necesito escuchar para concentrarme o relajarme en mi día a día. Me transmite muchísimos recuerdos de un juego el cual me hizo conocer mucha gente y pasar muy buenos momentos en una etapa de mi vida.
 
 
 
