@@ -31,8 +31,6 @@ Para comenzar, haremos un dump de la base de datos como medida de seguridad por 
 
     drush sql-dump
 
-Con esto bastará a excepción de que tengamos drush 9, donde tendremos que hacer directamente desde el CLI para realizar el dump debido a que no existe el comando.
-
 El siguiente paso será leer las notas de la versión lanzada, ya que siempre puede darse casos en los que algunos módulos hayan sufrido cambios o se recomiende actuar de alguna manera en la actualización. Nunca viene mal asegurarse y estar informados de por qué vamos a actualizar nuestro Drupal al fin y al cabo, ¿no?
 
 Según las recomendaciones de Drupal, en el siguiente paso se recomienda poner nuestro sitio web en mantenimiento. Esto puede hacerse directamente desde la interfaz de administración o con los siguientes comandos:
