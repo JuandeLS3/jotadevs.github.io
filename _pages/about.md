@@ -33,4 +33,4 @@ Aquí comencé mis primeros 3 meses de prácticas, después de finalizar los 2 a
 **Emergya**
 *2018 - actualidad*
 
-Al finalizar mi Grado Superior de Desarrollo de Aplicaciones Web, comencé las prácticas en Emergya, una empresa de consultoría y proyectos internacionales. Al terminar los 3 meses de prácticas decidieron contar conmigo. A día de hoy trabajo como desarrollador back-end con Drupal 8/PHP en proyectos punteros y lo más importante: haciendo lo que me gusta.
+Al finalizar mi Grado Superior de Desarrollo de Aplicaciones Web, comencé las prácticas en Emergya, una empresa de consultoría. Al terminar los 3 meses de prácticas decidieron contar conmigo. A día de hoy trabajo como desarrollador back-end con Drupal 8/PHP en proyectos punteros y lo más importante: haciendo lo que me gusta.
