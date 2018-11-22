@@ -17,11 +17,11 @@ Si deseas contactar conmigo personalmente, por favor, usa este formulario facili
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="subject">Asunto:</label>
-                <input required type="radio" class="contact-input" name="subject" value="proyectos"/>Proyectos<br>
-                <input required type="radio" class="contact-input" name="subject" value="dudas"/>Dudas<br>
-                <input required type="radio" class="contact-input" name="subject" value="sugerencias"/>Sugerencias<br>
-                <input required type="radio" class="contact-input" name="subject" value="informar de error"/>Informar de error<br>
-                <input required type="radio" class="contact-input" name="subject" value="otros"/>Otros<br>
+                <input required type="radio" class="contact-input" name="subject" value="proyectos"/>Proyectos
+                <input required type="radio" class="contact-input" name="subject" value="dudas"/>Dudas
+                <input required type="radio" class="contact-input" name="subject" value="sugerencias"/>Sugerencias
+                <input required type="radio" class="contact-input" name="subject" value="informar de error"/>Informar de error
+                <input required type="radio" class="contact-input" name="subject" value="otros"/>Otros
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="email">Email:</label>

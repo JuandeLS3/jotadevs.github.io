@@ -18,18 +18,21 @@ Las dos primeras categorías son mis dos mayores pasiones; en life experiences e
 ## Trayectoria profesional
 
 ![small image]({{site.baseurl}}/images/eci.gif)
+
 **Corte Inglés** 
 *2015*
 
 Aquí comencé mis primeros 3 meses de prácticas, después de finalizar los 2 años de Ciclo Formativo de Grado Medio, me escogieron a realizar prácticas relacionadas con la informática en El Corte Inglés. Además de reparar equipos, formatearlos, realizar copias de seguridad, mantenimiento, etc... aprendí a tratar con el público y con los compañeros, algo que considero me ha sido esencial ya no solo en mi vida laboral, sino en la personal. 
 
 ![small image]({{site.baseurl}}/images/bricor.jpg)
+
 **BriCor**
 *2016 - 2017*
 
 5 meses después de acabar las prácticas en ECI, me llamaron para trabajar en BriCor por el buen trabajo y actitud realizadas en las prácticas anteriores. Este fue mi primer empleo con salario, ajeno completamente al campo de la informática y dedicado al mundo de la atención al público y la venta. Por supuesto acepté el reto. Gracias a esta etapa aprendí aún más a tratar con las personas y a sentir de verdad lo que es un trabajo y el sacrificio que supone, así como sus ventajas. Estuve durante 6 meses.
 
 ![small image]({{site.baseurl}}/images/emergya.jpg)
+
 **Emergya**
 *2018 - actualidad*
 
