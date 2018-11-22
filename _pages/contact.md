@@ -16,22 +16,13 @@ Si deseas contactar conmigo personalmente, por favor, usa este formulario facili
                 <input required type="text" placeholder="Tu nombre" id="name" class="contact-input" name="name" tabindex="1"/>
             </li>
             <li class="contact-li">
-                <label class="contact-label" for="subject">Asunto:</label>
-                <input required type="radio" class="contact-input" name="subject" value="proyectos" tabindex="3"/>Proyectos
-                <input required type="radio" class="contact-input" name="subject" value="dudas" tabindex="3"/>Dudas
-                <input required type="radio" class="contact-input" name="subject" value="sugerencias" tabindex="3"/>Sugerencias
-                <input required type="radio" class="contact-input" name="subject" value="informar de error" tabindex="3"/>Informar de error
-                <input required type="radio" class="contact-input" name="subject" value="otros" tabindex="3"/>Otros
-            </li>
-            <li class="contact-li">
                 <label class="contact-label" for="email">Email:</label>
-                <input required type="email" placeholder="Tu correo electrónico" id="email" class="contact-input" name="email" tabindex="4"/>
+                <input required type="email" placeholder="Tu correo electrónico" id="email" class="contact-input" name="email" tabindex="2"/>
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="message">Mensaje:</label>
-                <textarea required class="contact-textarea" placeholder="Escribe aquí tu mensaje" class="contact-input" rows="4" id="message" name="message" tabindex="5"></textarea>
-            </li>
-            
+                <textarea required class="contact-textarea" placeholder="Escribe aquí tu mensaje" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
+            </li>     
         </ul>
         <input type="submit" value="Enviar" id="submit"/>
         <input type="hidden" name='redirect_to' value="{{site.redirect-to}}" />
