@@ -7,13 +7,21 @@ active: active
 ---
 
 
-Si tienes alguna sugerencia o necesitas comentarme algo personalmente, no dudes en contactarme mediante el siguiente formulario.
+Si deseas contactar conmigo personalmente, por favor, usa este formulario facilitando los datos a continuación.
 
 <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token={{site.simpleform-token}}" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
             <li class="contact-li">
                 <label class="contact-label" for="name">Nombre:</label>
                 <input required type="text" placeholder="Tu nombre" id="name" class="contact-input" name="name" tabindex="1"/>
+            </li>
+            <li class="contact-li">
+                <label class="contact-label" for="subject">Asunto:</label>
+                <input required type="radio" class="contact-input" name="subject" value="proyectos"/>Proyectos<br>
+                <input required type="radio" class="contact-input" name="subject" value="dudas"/>Dudas<br>
+                <input required type="radio" class="contact-input" name="subject" value="sugerencias"/>Sugerencias<br>
+                <input required type="radio" class="contact-input" name="subject" value="informar de error"/>Informar de error<br>
+                <input required type="radio" class="contact-input" name="subject" value="otros"/>Otros<br>
             </li>
             <li class="contact-li">
                 <label class="contact-label" for="email">Email:</label>
@@ -30,6 +38,7 @@ Si tienes alguna sugerencia o necesitas comentarme algo personalmente, no dudes 
         
 </form>
 
+También puedes contactarme mediante Linkedin o Twitter.
 ¡Gracias por contactar!
 
 <style>

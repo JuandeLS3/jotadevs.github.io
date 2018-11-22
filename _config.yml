@@ -35,7 +35,7 @@ simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 redirect-to: https://juandels3.github.io/
 
 # Site version
-version: 1.1
+version: 1.2
 
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
@@ -52,7 +52,7 @@ author:
   name: JuandeLS3
   image: juandels3.jpg # The author image will be shown on the header. Place this image in /images/ folder.
   about: Nací en España y resido actualmente en Sevilla, Andalucía.
-         Trabajo en desarrollando aplicaciones web. Me encanta el mundo del
+         Trabajo desarrollando aplicaciones web. Me encanta el mundo del
          desarrollo en general y los videojuegos.
   twitter: JuandeLS3  # https://twitter.com/ is automatically added
   #facebook: webjeda # https://facebook.com/ is automatically added
