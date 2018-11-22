@@ -18,7 +18,7 @@ Las dos primeras categorías son mis dos mayores pasiones; en life experiences e
 ## Trayectoria profesional
 
 ![small image]({{site.baseurl}}/images/eci.gif)
-**Corte Inglés** 
+**El Corte Inglés** 
 *2015*
 
 Aquí comencé mis primeros 3 meses de prácticas, después de finalizar los 2 años de Ciclo Formativo de Grado Medio, me escogieron a realizar prácticas relacionadas con la informática en El Corte Inglés. Además de reparar equipos, formatearlos, realizar copias de seguridad, mantenimiento, etc... aprendí a tratar con el público y con los compañeros, algo que considero me ha sido esencial ya no solo en mi vida laboral, sino en la personal. 
