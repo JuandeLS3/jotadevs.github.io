@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instalación y uso de Google Analytics en Drupal 8
+title: Google Analytics en Drupal 8
 description: Aprovecha todas las ventajas y datos en bruto que te facilita Google Analytics con el módulo para Drupal 8
 author: juandels3
 categories: code
