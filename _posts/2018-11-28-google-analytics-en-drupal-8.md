@@ -8,7 +8,7 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/analytics.png)
 
-Google Analytics es una herramienta muy potente sacada de la mano de Google que permite monitorizar y analizar datos de nuestra página web. Gráficos, datos en tiempo real, visitas, ubicaciones, audiencia... son solo algunas de todas las utilidades que nos proporciona Google Analytics, además, desde un panel modular totalmente personalizable y amigable.
+Google Analytics es una herramienta muy potente sacada de la mano de Google que permite *monitorizar y analizar datos de nuestra página web.* Gráficos, datos en tiempo real, visitas, ubicaciones, audiencia... son solo algunas de todas las utilidades que nos proporciona Google Analytics, además, desde un panel modular totalmente personalizable y amigable.
 
 Con Drupal 8 tenemos incluido en el core el módulo "*Statistics*", que puede ser útil en blogs o páginas simples o que no requieran tantas estadísticas. Pero a la hora de trabajar en un proyecto mayor, se nos quedará corto, y para ello existe el módulo de [Google Analytics](https://www.drupal.org/project/google_analytics), el cual se encuentra actualmente con la versión 8.x.2.3 estable.
 
