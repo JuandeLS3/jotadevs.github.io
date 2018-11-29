@@ -15,6 +15,11 @@
     }
     @include media-query($on-palm) {
         margin-bottom: 20px;
+        height: 6.5rem;
+        padding-bottom: 20px;
+    }
+    @include media-query($on-iphone) {
+        margin-bottom: 20px;
         height: 9.5rem;
         padding-bottom: 20px;
     }
@@ -45,13 +50,15 @@
           padding: 12px 15px;
     }
     @include media-query($on-palm) {
-            padding: 5px 20px;
+          padding: 5px 20px;
+          height: 92%;
+          position: absolute;
     }
         @include media-query($on-iphone) {
-            padding: 10px 10px;
-            width: 15%;
-            position: absolute;
-            height: 89%;
+          padding: 10px 10px;
+          width: 15%;
+          position: absolute;
+          height: 89%;
     }
 }
 
@@ -61,10 +68,14 @@
     padding: 0;
     margin-left: 10px;
     width: 80%;
+           @include media-query($on-palm) {
+             margin-left: 19%;
+             width: 81%;
+           }
            @include media-query($on-iphone) {
-            width: 76%;
-             margin-left: 24%;
-    }
+              width: 76%;
+              margin-left: 24%;
+           }
 }
 
 .post-list {
