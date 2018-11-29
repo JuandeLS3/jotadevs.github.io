@@ -43,10 +43,6 @@
                 }
             }
         }
-
-
-
-
 }
 
 .profile {
@@ -61,18 +57,15 @@
     height: 145px;
     width: 136px;
     @include media-query($on-palm) {
-        height: 70px;
+        height: auto;
         width: 70px;
     }
 }
 
 .author-about {
     color: #eee;
-    margin-bottom: -5px;
-
+    margin-bottom: 5px;
 }
-
-
 
 .menu-item {
     display: inline-block;
@@ -87,6 +80,7 @@
 .menu-category {
     text-align: center;
     padding-bottom: 10px;
+    font-size: 22px;
 }
 
 .menu-item a{

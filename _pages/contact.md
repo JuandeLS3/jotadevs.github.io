@@ -7,7 +7,7 @@ active: active
 ---
 
 
-Si deseas contactar conmigo personalmente, por favor, usa este formulario facilitando los datos a continuación.
+Si deseas contactar conmigo personalmente, por favor, usa este formulario facilitando los datos que se piden a continuación.
 
 <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token={{site.simpleform-token}}" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
@@ -30,7 +30,6 @@ Si deseas contactar conmigo personalmente, por favor, usa este formulario facili
 </form>
 
 También puedes contactarme mediante Linkedin o Twitter.
-¡Gracias por contactar!
 
 <style>
 form {

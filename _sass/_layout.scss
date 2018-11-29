@@ -20,7 +20,7 @@
 } */
 
 .post-title, .page-title {
-    font-size: 2.5em;
+    font-size: 30px;
     letter-spacing: -1px;
     font-weight: 600;
     line-height: 2;
@@ -45,6 +45,7 @@
     }
      @include media-query($on-iphone) {
         font-size: 30px;
+        padding-top: 20px;
     }
 }
 
