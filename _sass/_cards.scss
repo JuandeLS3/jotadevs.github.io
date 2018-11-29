@@ -15,7 +15,7 @@
     }
     @include media-query($on-palm) {
         margin-bottom: 20px;
-        height: 6.5rem;
+        height: 7rem;
         padding-bottom: 20px;
     }
     @include media-query($on-iphone) {
@@ -69,7 +69,7 @@
     margin-left: 10px;
     width: 80%;
            @include media-query($on-palm) {
-             margin-left: 19%;
+             margin-left: 18%;
              width: 81%;
            }
            @include media-query($on-iphone) {
@@ -96,7 +96,8 @@
         font-size: 18px;
     }
     @include media-query($on-palm) {
-        font-size: 15px;
+        font-size: 16px;
+        padding: 5% 17% 1% 0;
     }
      @include media-query($on-iphone) {
         font-size: 16.5px;
@@ -109,7 +110,8 @@ p.post-excerpt {
     margin: 0;
     color: $grey-color;
     @include media-query($on-palm) {
-        font-size: 12px;
+        font-size: 13px;
+        padding: 3% 4% 7% 0;
     }
        @include media-query($on-iphone) {
         font-size: 13px;
