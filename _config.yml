@@ -35,7 +35,7 @@ simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 redirect-to: https://juandels3.github.io/
 
 # Site version
-version: 1.2
+version: 1.3
 
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
