@@ -20,7 +20,7 @@ Una vez instalado y listo, descargaremos el módulo con composer.
 Una vez descargado, tocará habilitarlo en nuestro Drupal 8. Para ello tenemos dos opciones:
 
  - Hacerlo por interfaz desde **Extend > Marcar el módulo "Google Analytics" > Presionar botón "Install"**.
- - Hacerlo mediante la herramienta drush, el cual [explico aquí como instalar](https://juandels3.github.io/utilidades-drupal/).
+ - Hacerlo mediante la herramienta drush, la cual [explico aquí como instalar](https://juandels3.github.io/utilidades-drupal/).
 
 El comando sería el siguiente:
 
@@ -28,8 +28,8 @@ El comando sería el siguiente:
 
 Una vez habilitado, podemos acceder a su configuración desde la interfaz de administración en **Configuration > System > Google Analytics**.
 
-La única configuración que debemos editar será el "Web Property ID" que normalmente comienza por **"UA-XXXXX"***. Para obtener este código es obligatorio registrarse en Google y crear una Propiedad. La propiedad será el sitio web el cual llevará asignado el Web Property ID, es decir, nuestro sitio web. 
-Una vez hayamos registrado nuestro cuenta y la propiedad, Google nos facilitará un ID de seguimiento, que será el que debamos introducir en nuestro Drupal. Cuando guardemos la configuración, Google Analytics ya trackeará las visitas, usuarios activos, etc...
+La única configuración que debemos editar será el "Web Property ID" que normalmente comienza por **"UA-XXXXX"**. Para obtener este código es obligatorio registrarse en Google y crear una Propiedad. La propiedad será el sitio web el cual llevará asignado el Web Property ID, es decir, nuestro sitio web. 
+Una vez hayamos registrado nuestra cuenta y la propiedad, Google nos facilitará un ID de seguimiento, que será el que debamos introducir en nuestro Drupal. Cuando guardemos la configuración, Google Analytics ya trackeará las visitas, usuarios activos, etc...
 
 ## Tracking scope
 
