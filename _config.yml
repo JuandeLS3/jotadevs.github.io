@@ -61,6 +61,7 @@ author:
 gems: 
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-paginate-v2
 
 # Pagination settings
   pagination:
