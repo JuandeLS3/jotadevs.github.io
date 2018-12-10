@@ -54,7 +54,7 @@ Ahora que se ha instalado NVM, podemos instalar versiones independientes de Node
 
      nvm ls-remote  
 
-Esto nos imprimirá en pantalla una lista con todas las versiones disponibles. Debemos instalar la última versión **LTS Estable**, que actualmente es la v8.12.0, pero es variará con el tiempo.  
+Esto nos imprimirá en pantalla una lista con todas las versiones disponibles. Debemos instalar la última versión **LTS Estable**, que actualmente es la v8.12.0, pero variará con el tiempo.  
   
 
      nvm install v8.12.0  
@@ -80,7 +80,7 @@ Indicando la opción -g le estamos diciendo que queremos instalarlo de forma glo
      npm install gulp  
 
 Este proceso puede tomar su tiempo, pero una vez finalizado tendremos instalado Gulp de forma global. Antes de poder usarlo, debemos crear un nuevo fichero de configuración para gulp, denominado **gulpfile.js**.
-Este fichero debe estar colocado en la raíz del proyectom y debe tener una estructura con los siguientes elementos:
+Este fichero debe estar colocado en la raíz del proyecto y debe tener una estructura con los siguientes elementos:
 
 -   La importación de otros módulos
 -   La importación de un fichero de configuración del proyecto (opcional)
