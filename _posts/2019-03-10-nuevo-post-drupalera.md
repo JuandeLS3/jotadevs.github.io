@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Crear un sitio web multilenguaje en Drupal 8 (colaboración)
-description: I'm back! No te pierdas mi nuevo post colaborando en La Drupalera
+description: I'm back! No te pierdas mi nuevo post colaborando en la web de La Drupalera
 author: juandels3
 categories: code
 ---
