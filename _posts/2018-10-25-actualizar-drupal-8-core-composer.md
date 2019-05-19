@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Actualizar core de Drupal 8 con composer
-description: Actualizaremos el core de Drupal 8 con composer paso a paso de forma sencilla y eficiente
+description: Actualizaremos el core de Drupal 8 con composer paso a paso de forma sencilla
 author: juandels3
 categories: code
 ---
@@ -21,24 +21,24 @@ Una vez aprendido el calendario drupalero, podemos pasar a la acción para actua
 
 ## Actualizando nuestro Drupal 8
 
-En primer lugar, debemos comprobar si hay actualizaciones disponibles, esto se puede hacer investigando desde la propia web oficial de Drupal releases, o desde la consola con el siguiente comando:
+En primer lugar, debemos comprobar si hay actualizaciones disponibles, esto se puede hacer desde la interfaz de administración de nuestro portal (status report) o desde la consola con el siguiente comando:
 
     composer outdated drupal/*
 
-Una vez realizado y tras unos instantes de espera, nos imprimirá una tabla con la paquetería que requiere actualizarse, indicando la versión actual y la más reciente disponible. Si nos aparece el core, es necesario actualizarlo. También es importante echarle un ojo a nuestro composer.json, para verificar nuestra versión actual de Drupal y saber si nuestra actualización será a una patch version o a una minor version. Si por ejemplo queremos actualizar de la 8.5.0 a la 8.6.0 es necesario reemplazar en el composer.json la versión del core de "~8.5.x" a "^8.6.0"
+Una vez realizado y tras unos instantes de espera, nos imprimirá una tabla con la paquetería que requiere actualizarse, indicando la versión actual y la más reciente disponible. Si nos aparece el core, es necesario actualizarlo. También es importante echarle un ojo a nuestro composer.json, para verificar nuestra versión actual de Drupal y saber si nuestra actualización será a una patch version o a una minor version. Si por ejemplo queremos actualizar de la 8.5.0 a la 8.6.0 es necesario reemplazar en el composer.json la versión del core de "~8.5.x" a "^8.6"
 
 Para comenzar, haremos un dump de la base de datos como medida de seguridad por si algo va mal (más vale prevenir...)
 
-    drush sql-dump
+    drush sql-dump backup.sql
 
-El siguiente paso será leer las notas de la versión lanzada, ya que siempre puede darse casos en los que algunos módulos hayan sufrido cambios o se recomiende actuar de alguna manera en la actualización. Nunca viene mal asegurarse y estar informados de por qué vamos a actualizar nuestro Drupal al fin y al cabo, ¿no?
+El siguiente paso será leer las notas de la versión lanzada, ya que siempre puede darse casos en los que algunos módulos hayan sufrido cambios o se recomiende actuar de alguna manera en la actualización. Nunca viene mal estar informados de por qué vamos a actualizar nuestro Drupal.
 
 Según las recomendaciones de Drupal, en el siguiente paso se recomienda poner nuestro sitio web en mantenimiento. Esto puede hacerse directamente desde la interfaz de administración o con los siguientes comandos:
 
     drush sset system.maintenance_mode 1
     drush cr
 
-Y ahora vamos al comando más importante, donde llevaremos a cabo la actualización del core de Drupal mediante composer, incluyendo sus dependencias (normalmente componentes symfony, entre otros)
+Y ahora vamos al **comando más importante**, donde llevaremos a cabo la actualización del core de Drupal mediante composer, incluyendo sus dependencias (normalmente componentes symfony, entre otros)
 
     composer update drupal/core --with-dependencies
 
@@ -46,7 +46,7 @@ Si el comando no nos funciona, puede deberse a que nuestro Drupal fue montado co
 
     composer update drupal/core webflo/drupal-core-require-dev --with-dependencies
 
-Por último y no siempre necesario, actualizaremos la base de datos para que esté acorde a los cambios implementados en la paquetería. Esto como ya he dicho anteriormente, no es necesario siempre en las minor versions, y suele venir especificado en las notas de la release.
+Por último, actualizaremos la base de datos (si hubiera actualizaciones) para que esté acorde a los cambios implementados en la paquetería.
 
     drush updatedb
     drush cr

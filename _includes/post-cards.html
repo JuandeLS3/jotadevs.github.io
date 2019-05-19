@@ -24,7 +24,7 @@
 {%- if latestPost_year == postYear and postDay > latestPost_day_minus_week and postDay <= latestPost_day  -%}
 <div class="post-box" id="newpost">
     {% if post.categories %}
-    <div class="ribbon"><span>{{post.categories | first}}</span><span id="tagnew">¡RECIENTE!</span></div>
+    <div class="ribbon"><span>{{post.categories | first}}</span><span id="tagnew">NEW!</span></div>
     {% endif %}
     <div class="post-meta"><h1 class="date">{{ post.date | date: "%-d" }}</h1>
         <span>{{ post.date | date: "%b" }}</span></div>

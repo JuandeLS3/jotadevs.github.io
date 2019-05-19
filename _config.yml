@@ -7,9 +7,8 @@
 
 # Site settings
 title: Blog de JuandeLS3
-author: JuandeLS3
 description: > # this means to ignore newlines until "baseurl:"
- Blog de Juan Delgado Salmerón (JuandeLS3) ~ Desarrollador back-end de Aplicaciones Web PHP/Drupal 8.
+ Blog de Juan Delgado Salmerón (JuandeLS3) ~ Desarrollador web backend PHP/Drupal 8.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juandels3.github.io/"
 permalink: :title/
@@ -35,7 +34,7 @@ simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 redirect-to: https://juandels3.github.io/
 
 # Site version
-version: 1.3
+version: 1.4
 
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
