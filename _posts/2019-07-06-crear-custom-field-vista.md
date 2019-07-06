@@ -19,14 +19,14 @@ En primer lugar y antes que nada, debemos de tener o crear un módulo custom. Nu
 
 Nuestra estructura de carpetas para el módulo "mycustom_module" que acabamos de crear ha quedado así:
 
-├── mycustom_module
-	├── mycustom_module.info.yml
-	├── mycustom_module.views.inc
-	├── src
-	│   └── Plugin
-	│       ├── views
-	│       │   └── field
-	│       │       └── ShowRoles.php
+    ├── mycustom_module
+        ├── mycustom_module.info.yml
+        ├── mycustom_module.views.inc
+        ├── src
+        │   └── Plugin
+        │       ├── views
+        │       │   └── field
+        │       │       └── ShowRoles.php
 
 Explicaremos brevemente qué hace cada fichero:
 
@@ -83,7 +83,7 @@ Así quedaría nuestro mycustom_module.views.inc.
     <?php  
       
     /**  
-     * Implements hook_views_data_alter(). */function ocai_module_views_data_alter(array &$data) {  
+     * Implements hook_views_data_alter(). {  
       
       $data['node']['show_roles'] = [  
       'title' => t('Show roles to user'),  
