@@ -10,14 +10,14 @@ categories: code
 
 # Crear custom fields en las vistas
 
-En muchos casos concretos, el proyecto en el que trabajamos puede requerirnos a cumplir un caso de uso muy concreto, que una vista de Drupal 8 no es capaz de proveernos mediante la interfaz. Pero como ya sabemos Drupal 8 es flexible y posee una API potente en las vistas que nos permite personalizarlas y adaptar éstas a nuestras necesidades. 
+En muchos casos concretos, el proyecto en el que trabajamos puede requerirnos cumplir algún caso de uso concreto, que una vista de Drupal 8 no es capaz de proveernos mediante la GUI. Pero como ya sabemos, Drupal 8 es flexible y posee una API potente en las vistas que nos permite personalizarlas y adaptar éstas a nuestras necesidades. 
 Hoy voy a explicar **cómo crear campos personalizados en las vistas de Drupal 8**.
 
 ## Estructura de carpetas
 
-En primer lugar y antes que nada, debemos de tener o crear un módulo custom. Nunca he explicado ni tengo pensado cómo crear un módulo custom en Drupal 8 porque creo que hay suficiente [documentación](https://www.drupal.org/docs/8/creating-custom-modules) al respecto en internet. Aún así, herramientas como Drupal Console, la cual explico cómo descargar e instalar en mi [post](https://juandels3.github.io/utilidades-drupal/), que nos permite crear fácilmente desde la consola un módulo custom a través de varias preguntas secuenciales. También podemos hacerlo manualmente, creando la estructura de carpetas necesaria. 
+En primer lugar y antes que nada, debemos tener o crear un módulo custom. Nunca he explicado ni tengo pensado explicar cómo crear un módulo custom en Drupal 8, porque creo que hay suficiente [documentación](https://www.drupal.org/docs/8/creating-custom-modules) al respecto en internet. Aún así, existen herramientas como Drupal Console, la cual explico cómo descargar e instalar en mi [post](https://juandels3.github.io/utilidades-drupal/), que nos permite crear fácilmente desde la consola un módulo custom a través de varias preguntas secuenciales. También podemos hacerlo manualmente, creando la estructura de carpetas necesaria. 
 
-Nuestra estructura de carpetas para el módulo "mycustom_module" que acabamos de crear ha quedado así:
+Nuestra estructura de carpetas para el módulo "mycustom_module" ha quedado así:
 
     ├── mycustom_module
         ├── mycustom_module.info.yml
@@ -36,7 +36,7 @@ Explicaremos brevemente qué hace cada fichero:
 
 ## Creando el campo
 
-Una vez tengamos nuestra estructura de carpetas correctamente, nos centraremos en **ShowRoles.php** en primer lugar y **mycustom_module.views.inc** en segundo.
+Una vez tenemos nuestra estructura de carpetas correctamente, nos centraremos en **ShowRoles.php** en primer lugar y **mycustom_module.views.inc** en segundo.
 
 Así quedaría nuestro ShowRoles.php.
 
@@ -76,7 +76,7 @@ Así quedaría nuestro ShowRoles.php.
       }
     }
 
-Nuestro campo es simple, lo único que hará será mostrar los roles del usuario actual en una ruta que configuraremos luego desde la interfaz de vistas. Lo importante de esta clase es que debe heredar de FieldPluginBase, por tanto se sobreescribirán los métodos render() y query(). Mucho ojo en la anotación @ViewsField("show_roles"), que será donde configuremos el ID de nuestro campo custom.
+Nuestro campo es muy simple; lo único que hará será mostrar los roles del usuario actual logueado (con sesión iniciada) en una ruta que configuraremos luego desde la interfaz de la vista. Lo importante de esta clase es que debe heredar de FieldPluginBase, por tanto se sobreescribirán los métodos render() y query(). Mucho ojo en la anotación @ViewsField("show_roles"), que será donde configuremos el ID de nuestro campo custom.
 
 Así quedaría nuestro mycustom_module.views.inc.
 
@@ -95,18 +95,18 @@ Así quedaría nuestro mycustom_module.views.inc.
       ];  
     }
 
-Aquí es importante que coincida correctamente el ID con el que pusimos en ShowRoles.php.
-Para terminar, debemos asegurarnos que los ficheros deben tener los permisos correctos y por último ejecutar el comando **drush cr** para borrar cachés. 
+Aquí es importante que coincida correctamente el ID y el que pusimos en ShowRoles.php.
+Para terminar, nos aseguraremos de que los ficheros tengan los permisos adecuados. Seguidamente ejecutamos el comando **drush cr** para borrar cachés. 
 
 ## Configurando la vista en la interfaz
 
 Ahora trabajaremos en crear la vista desde la interfaz de administración de Drupal. 
-Cuando busquemos en los "Fields" de la vista, si hemos hecho todo correctamente deberá de aparecer nuestro custom field.
+Cuando busquemos en los "Fields" de la vista, si hemos hecho todo correctamente aparecerá nuestro custom field en el listado de campos disponibles.
 
 ![small image]({{site.baseurl}}/images/custom_field_sc_1.png)
 
-Una vez lo encontremos, lo aplicamos a la vista. Configuraremos el path '/view-test' para mostrar el custom field ahí. 
-Finalmente el resultado será el siguiente:
+Una vez lo encontremos, lo aplicaremos a la vista. Configuraremos el path '/view-test', por ejemplo, para mostrar el custom field ahí. 
+El resultado final será el siguiente:
 
 ![small image]({{site.baseurl}}/images/custom_field_sc_2.png)
 
