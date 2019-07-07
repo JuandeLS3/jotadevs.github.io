@@ -8,8 +8,6 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/drupal8-views.png)
 
-# Crear custom fields en las vistas
-
 En muchos casos concretos, el proyecto en el que trabajamos puede requerirnos cumplir algún caso de uso concreto, que una vista de Drupal 8 no es capaz de proveernos mediante la GUI. Pero como ya sabemos, Drupal 8 es flexible y posee una API potente en las vistas que nos permite personalizarlas y adaptar éstas a nuestras necesidades. 
 Hoy voy a explicar **cómo crear campos personalizados en las vistas de Drupal 8**.
 
