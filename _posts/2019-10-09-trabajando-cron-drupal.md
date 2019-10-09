@@ -67,7 +67,7 @@ Asimismo estamos cargando y guardando la configuración de la interfaz en $confi
     /**
      * Implements hook_cron().
      */
-    function ocai_module_cron() {
+    function mymodule_module_cron() {
       $connection = \Drupal::database();
       $current_day = date('d', \Drupal::time()->getCurrentTime());
       $type = $current_day % 2 ? 1 : 0;
