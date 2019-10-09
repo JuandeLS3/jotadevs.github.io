@@ -14,11 +14,11 @@ Cada día nos despertamos por la mañana, desayunamos, nos vestimos, lavamos los
 
 ## ¿Qué es?
 
-El término 'cron' se refiere a las tareas automatizadas que un portal Drupal 8 ejecuta cada cierto periodo de tiempo o cuando el administrador desea, el tiempo es totalmente configurable. Se encarga, entre otras cosas, de verificar si hay actualizaciones disponibles para el núcleo de Drupal, para los módulos y temas contribuidos, indexar las búsquedas del portal, borrar cachés internas,etc. Es nada más y nada menos que una tarea automatizada que se encarga del mantenimiento del portal, pero su funcionalidad puede extenderse hasta el infinito y mas allá...
+El término 'cron' se refiere a las tareas automatizadas que un portal Drupal 8 ejecuta cada cierto periodo de tiempo o cuando el administrador desea; el tiempo es totalmente configurable. Se encarga, entre otras cosas, de verificar si hay actualizaciones disponibles para el núcleo de Drupal, para los módulos y temas contribuidos, indexar las búsquedas del portal, borrar cachés internas, etc. Es nada más y nada menos que una serie de tareas automatizadas que se encargan del mantenimiento del portal, pero su funcionalidad puede llegar mucho más lejos.
 
 ## El cron a nivel de interfaz
 
-Por defecto, el cron se ejecuta cada tres horas, pero ésto puede configurarse e incluso lanzarse manualmente desde la propia interfaz en **Configuración > Sistema > Cron**. Siempre es recomendable echar un vistazo al 'Reporte de estado' desde **Reportes > Reporte de estado** cada vez que finalize la ejecución del cron para comprobar si ha encontrado nuevas actualizaciones o problemas. Cualquier usuario con los permisos adecuados puede ejecutar el cron desde la interfaz de administración.
+Por defecto, el cron se ejecuta cada tres horas, pero esto puede configurarse e incluso lanzarse manualmente desde la propia interfaz (o código) en **Configuración > Sistema > Cron**. Siempre es recomendable echar un vistazo al 'Reporte de estado' desde **Reportes > Reporte de estado** cada vez que finalize la ejecución del cron para comprobar si ha encontrado nuevas actualizaciones o problemas. Cualquier usuario con los permisos adecuados puede ejecutar el cron desde la interfaz de administración.
 
 Es posible que alguna que otra vez recibamos un error al lanzar el cron donde éste se bloquea y lanza una excepción indicando de que no ha llegado a efectuarse. Esto ocurre cuando por ejemplo se lanza el cron desde distintos usuarios o de forma reiterativa. Para desbloquearlo debemos ejecutar una query en la base de datos o directamente hacerlo desde drush:
 
@@ -41,7 +41,7 @@ Imaginemos que nuestro cliente nos pide que se deben encriptar los datos de los 
 
 ![small image]({{site.baseurl}}/images/cron-drupal-img1.png)
 
-Para ello hemos creado un módulo custom y formulario en las ruta adecuada (en la configuración de administración del sitio). Veremos cómo puede hacerse esto en un futuro post.
+Para ello hemos creado un módulo custom y formulario en la ruta adecuada (en la configuración de administración del sitio). Veremos cómo puede hacerse esto en un futuro post. Como puede observarse en la imagen anterior, el administrador del sitio podrá setear el tiempo límite (en días) del último login que un usuario debe superar para que se encripten sus datos.   
 
     /**
      * Implements hook_cron().
@@ -60,8 +60,8 @@ Para ello hemos creado un módulo custom y formulario en las ruta adecuada (en l
     }
 
 
-Tal y como vemos en el código anterior, vamos a dividir la encriptación de usuarios dependiendo de si el día actual es par o impar. Esto hará que la comprobación de todos los usuarios sobrecargue lo menos posible al servidor. Dejaremos los **días pares** para encriptar los usuarios con roles 'Pros y 'Experts' y los **días impares** para los usuarios 'Noobies'. Esto se hace porque los usuarios con roles 'Pros' y 'Experts' serán usuarios que previamente han pagado o contratado algún servicio, mientras que los usuarios 'Noobies' serán los que no han pagado y están usando algún servicio gratuito de nuestro portal, por lo que habrá más usuarios de éste último rol.
-Estamos cargando y guardando la configuración de la interfaz en $config. Finalmente quedaría algo así:
+Tal y como vemos en el código anterior, vamos a dividir la encriptación de usuarios dependiendo de si el día actual es par o impar. Esto hará que la comprobación de todos los usuarios sobrecargue lo menos posible el servidor. Dejaremos los **días pares** para encriptar los usuarios con roles 'Pros y 'Experts' y los **días impares** para los usuarios 'Noobies'. Esto se hace porque los usuarios con roles 'Pros' y 'Experts' serán usuarios que previamente han pagado o contratado algún servicio, mientras que los usuarios 'Noobies' serán los que no han pagado y están usando algún servicio gratuito de nuestro portal, por lo que habrá más usuarios de éste último rol.
+Asimismo estamos cargando y guardando la configuración de la interfaz en $config. Finalmente quedaría algo así:
 
 
     /**
@@ -113,4 +113,4 @@ Estamos lanzando el cron cada día y se encarga de comprobar periódicamente qu�
 
 ## Conclusión
 
-El cron de Drupal es esencial para realizar ciertas tareas periódicas en nuestro sitio web. Además gracias a la API de Drupal 8 podemos crear implementaciones muy interesantes y extendidas, eso sí, sin olvidar el coste del rendimiento al servidor mientras se ejecuta.
+El cron de Drupal es esencial para realizar ciertas tareas periódicas en nuestro sitio web. Además, gracias a la API de Drupal 8 podemos crear implementaciones muy interesantes y extendidas, eso sí, sin olvidar el coste del rendimiento al servidor mientras se ejecuta.
