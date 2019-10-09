@@ -8,8 +8,6 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/cron-drupal.jpeg)
 
-# Trabajando con el Cron de Drupal 8
-
 ¡Hola a tod@s! Pido disculpas por mi ausencia estos meses, pero he estado en una etapa de novedades y cambios y necesitaba un tiempo para asentarlo y volver más fuerte. 
 
 Cada día nos despertamos por la mañana, desayunamos, nos vestimos, lavamos los dientes, peinamos... y bueno, hacemos todas esas tareas cotidianas para empezar el día. Si no hacemos estas cosas sentimos que nos falta algo. El cron de Drupal 8 funciona de una forma similar. 
@@ -43,6 +41,7 @@ Imaginemos que nuestro cliente nos pide que se deben encriptar los datos de los 
 
 ![small image]({{site.baseurl}}/images/cron-drupal-img1.png)
 
+Para ello hemos creado un módulo custom y formulario en las ruta adecuada (en la configuración de administración del sitio). Veremos cómo puede hacerse esto en un futuro post.
 
     /**
      * Implements hook_cron().
@@ -61,7 +60,7 @@ Imaginemos que nuestro cliente nos pide que se deben encriptar los datos de los 
     }
 
 
-Tal y como vemos en el código anterior, vamos a dividir la encriptación de usuarios dependiendo de si el día actual es par o impar. Esto hará que la comprobación de todos los usuarios sobrecargue lo menos posible al servidor. Dejaremos los días pares para encriptar los usuarios con roles 'Pros y 'Experts' y los días impares para los usuarios 'Noobies'. Esto se hace porque los usuarios con roles 'Pros' y 'Experts' serán usuarios que previamente han pagado o contratado algún servicio, mientras que los usuarios 'Noobies' serán los que no han pagado y están usando algún servicio gratuito de nuestro portal, por lo que habrá más usuarios de éste último rol.
+Tal y como vemos en el código anterior, vamos a dividir la encriptación de usuarios dependiendo de si el día actual es par o impar. Esto hará que la comprobación de todos los usuarios sobrecargue lo menos posible al servidor. Dejaremos los **días pares** para encriptar los usuarios con roles 'Pros y 'Experts' y los **días impares** para los usuarios 'Noobies'. Esto se hace porque los usuarios con roles 'Pros' y 'Experts' serán usuarios que previamente han pagado o contratado algún servicio, mientras que los usuarios 'Noobies' serán los que no han pagado y están usando algún servicio gratuito de nuestro portal, por lo que habrá más usuarios de éste último rol.
 Estamos cargando y guardando la configuración de la interfaz en $config. Finalmente quedaría algo así:
 
 
@@ -110,7 +109,7 @@ Estamos cargando y guardando la configuración de la interfaz en $config. Finalm
       }
     }
 
-En resumen, estamos lanzando el cron cada día y se encarga de comprobar periódicamente qué usuarios tienen un último acceso mayor al indicado en configuración (véase imagen anterior). En caso de que se supere el tiempo límite, se encriptarán los datos del usuario. Esto es una de las muchas cosas que puede hacerse con el cron de Drupal...
+Estamos lanzando el cron cada día y se encarga de comprobar periódicamente qué usuarios tienen un último acceso mayor al indicado en configuración (véase imagen anterior). En caso de que el usuario lleve sin conectarse más del tiempo establecido en la configuración, o si está vacía al tiempo por defecto que son 365 días, se encriptarán los datos del usuario. Esto es una de las tantas cosas que puede hacerse con el cron de Drupal...
 
 ## Conclusión
 
