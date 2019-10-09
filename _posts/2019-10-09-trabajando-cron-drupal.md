@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trabajando con el cron de Drupal 8 
-description: Toca hablar del cron de Drupal 8: qué es lo que hace y qué puede llegar a conseguirse con él
+description: Toca hablar del cron de Drupal 8. Qué es lo que hace y qué puede llegar a conseguirse con él
 author: juandels3
 categories: code
 ---
