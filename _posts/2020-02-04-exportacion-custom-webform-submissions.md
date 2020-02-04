@@ -6,6 +6,8 @@ categories: code
 author: juandels3
 ---
 
+![small image]({{site.baseurl}}/images/webform_post.jpg)
+
 ¡Hola a tod@s! Después de unos meses de inactividad, me apetecía escribir y compartir algo de Drupal con todos ustedes. En este artículo hablaremos un poco -sin extendernos- de Webform para Drupal 8 y un caso específico: cómo generar una exportación de webform submissions en un campo custom.
 
 Pero como siempre, vayamos por partes...
