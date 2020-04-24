@@ -7,29 +7,7 @@ active: active
 ---
 
 
-Si deseas contactar conmigo personalmente, por favor, usa este formulario facilitando los datos que se piden a continuación.
-
-<form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token={{site.simpleform-token}}" method="POST" enctype="multipart/form-data">
-        <ul class="contact-ul">
-            <li class="contact-li">
-                <label class="contact-label" for="name">Nombre:</label>
-                <input required type="text" placeholder="Tu nombre" id="name" class="contact-input" name="name" tabindex="1"/>
-            </li>
-            <li class="contact-li">
-                <label class="contact-label" for="email">Email:</label>
-                <input required type="email" placeholder="Tu correo electrónico" id="email" class="contact-input" name="email" tabindex="2"/>
-            </li>
-            <li class="contact-li">
-                <label class="contact-label" for="message">Mensaje:</label>
-                <textarea required class="contact-textarea" placeholder="Escribe aquí tu mensaje" class="contact-input" rows="4" id="message" name="message" tabindex="3"></textarea>
-            </li>     
-        </ul>
-        <input type="submit" value="Enviar" id="submit"/>
-        <input type="hidden" name='redirect_to' value="{{site.redirect-to}}" />
-        
-</form>
-
-También puedes contactarme mediante Linkedin o Twitter.
+Puedes contactarme a través de las redes sociales (Twitter y LinkedIn)
 
 <style>
 form {
