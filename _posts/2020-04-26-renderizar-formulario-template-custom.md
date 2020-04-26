@@ -27,6 +27,14 @@ En la clase MyForm.php destacaremos el método buildForm(), donde construiremos 
       return parent::buildForm($form, $form_state);  
     }
 
+El fichero js también tenemos que declararlo en nuestro **my_module.libraries.yml** de la siguiente forma:
+
+    cityvalues:
+      js:
+        js/cityvalues.js: {}
+      dependencies:
+        - core/jquery
+        
 El siguiente paso es crear el bloque custom, que se encargará de cargar el formulario previamente creado a través del template.
 
     public function build() {  
