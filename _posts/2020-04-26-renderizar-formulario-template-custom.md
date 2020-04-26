@@ -63,11 +63,11 @@ Ahora haremos uso de nuestro my_module.module para usar el hook_theme.
 Este hook se encargará de identificar el id 'block_cities' con el nombre de la plantilla que tiene asignada (block--cities.html.twig), además de setear la variable 'city_form' que va a recibir posteriormente, que contendrá el formulario instanciado.
 El último paso es crear la plantilla twig, respetando el directorio **my_module/templates/block--cities.html.twig**
 
-```html  
+{% highlight html %}
     <div class="cities-form">  
         {{ city_form }}  
     </div>
-```  
+{% endhighlight %}
 
 Y no debemos olvidarnos de que también adjuntamos un js a este form, que ubicaremos en **my_module/js/cityvalues.js**
 
@@ -75,4 +75,5 @@ Y no debemos olvidarnos de que también adjuntamos un js a este form, que ubicar
 De esta forma, cada vez que coloquemos el bloque custom en algún sitio de nuestro portal, estaremos llamando un formulario que pasará por un template custom y que carga un js con una funcionalidad concreta. 
 Espero que os haya servido y que hayáis aprendido algo nuevo, ¡que eso es lo más importante!
 
-*Rev 0.4*
+
+*Rev 0.5*
