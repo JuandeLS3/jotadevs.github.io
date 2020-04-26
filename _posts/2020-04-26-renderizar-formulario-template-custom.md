@@ -56,7 +56,7 @@ Este hook se encargará de identificar el id 'block_cities' con el nombre de la 
 El último paso es crear la plantilla twig, respetando el directorio **my_module/templates/block--cities.html.twig**
 
     <div class="cities-form">  
-      {{ city_form }}  
+        {{ city_form }}  
     </div>
 
 Y no debemos olvidarnos de que también adjuntamos un js a este form, que ubicaremos en **my_module/js/cityvalues.js**
