@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exportación custom de Webform submissions
+title: Exportación custom de submissions (Webform)
 description: Genera un link custom que descarga todas las submissions de un webform asociado
 categories: code
 author: juandels3

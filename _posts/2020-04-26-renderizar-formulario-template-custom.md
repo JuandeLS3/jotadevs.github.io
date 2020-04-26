@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Renderizar formulario en un template custom
-description: Cargaremos un form en un template a través de un bloque, para ajustar una estructura html y una funcionalidad por js
+title: Formulario en un template custom
+description: Cargaremos un form en un bloque a través de un template, para ajustar una estructura html y una funcionalidad por js
 categories: code
 author: juandels3
 ---
@@ -19,22 +19,23 @@ En la clase MyForm.php destacaremos el método buildForm(), donde construiremos 
 
     public function buildForm(array $form, FormStateInterface $form_state) {  
       $form['cities'] = [  
-      '#type' => 'select',  
-      '#options' => cities[...],  
-     ];   
+        '#type' => 'select',  
+        '#options' => cities[...],  
+      ];   
       $form['#attached']['library'][] = 'my_module/cityvalues';  
-     }  
+      
       return parent::buildForm($form, $form_state);  
     }
 
 El siguiente paso es crear el bloque custom, que se encargará de cargar el formulario previamente creado a través del template.
 
     public function build() {  
-      $form = \Drupal::formBuilder()->getForm('Drupal\my_module\Form\MyForm');  
+      $form = \Drupal::formBuilder()->getForm('Drupal\my_module\Form\MyForm');
+        
       return [  
-      '#theme' => 'block_cities',  
-      '#city_form' => $form,  
-     ];
+        '#theme' => 'block_cities',  
+        '#city_form' => $form,  
+      ];
     }
 
 Cómo podéis observar, primero instanciamos el formulario en la variable *$form*. Después en el array que devolvemos, llamamos al id de la plantilla twig (que será 'cities_template') y le pasaremos en una variable el formulario.
@@ -42,12 +43,12 @@ Ahora haremos uso de nuestro my_module.module para usar el hook_theme.
 
     function my_module_theme() {  
       return [  
-       'block_cities' => [  
-        'template' => 'block--cities',  
-        'variables' => [  
-         'city_form' => NULL,  
+        'block_cities' => [  
+          'template' => 'block--cities',  
+          'variables' => [  
+            'city_form' => NULL,  
+          ],
         ],
-       ],
       ];
     }
 
@@ -55,7 +56,7 @@ Este hook se encargará de identificar el id 'block_cities' con el nombre de la 
 El último paso es crear la plantilla twig, respetando el directorio **my_module/templates/block--cities.html.twig**
 
     <div class="cities-form">  
-        {{ city_form }}  
+      {{ city_form }}  
     </div>
 
 Y no debemos olvidarnos de que también adjuntamos un js a este form, que ubicaremos en **my_module/js/cityvalues.js**
