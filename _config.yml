@@ -41,6 +41,7 @@ version: 1.5
 
 change-date-bg: no
 
+lang: es_ES
 
 # Build settings
 markdown: kramdown
