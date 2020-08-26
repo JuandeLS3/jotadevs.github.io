@@ -8,8 +8,6 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/javascript.jpg)
 
-# Traducir cadenas en JS desde Webform
-
 ¡Hola a tod@s! Después de tomarme un periodo de vacaciones blogueras, ¡es hora de volver a la acción!
 En este artículo quiero contaros la problemática que encontramos con Webform durante el desarrollo de un proyecto en Drupal 8, y por supuesto, la solución "temporal".
 
