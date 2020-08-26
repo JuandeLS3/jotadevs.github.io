@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Blog de JuandeLS3
+title: Drupal blog | JuandeLS3
 description: > # this means to ignore newlines until "baseurl:"
- Blog de Juan Delgado Salmerón (JuandeLS3) ~ Desarrollador web backend PHP/Drupal 8.
+ Bienvenid@ al blog de Juan Delgado Salmerón "JuandeLS3" - Desarrollador web backend Drupal. Artículos, tutoriales y más sobre Drupal en general. También escribo sobre videojuegos y de vez en cuando experiencias personales.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juandels3.github.io/"
 permalink: :title/
@@ -34,7 +34,7 @@ simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 redirect-to: https://juandels3.github.io/
 
 # Site version
-version: 1.4
+version: 1.5
 
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
@@ -48,10 +48,10 @@ markdown: kramdown
 include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
 author:
-  name: JuandeLS3
-  image: juandels3.jpg # The author image will be shown on the header. Place this image in /images/ folder.
+  name: Juan Delgado Salmerón
+  image: juandels3.jpeg # The author image will be shown on the header. Place this image in /images/ folder.
   about: Nací en España y resido actualmente en Sevilla, Andalucía.
-         Trabajo desarrollando aplicaciones web. Me encanta el mundo del
+         Trabajo desarrollando aplicaciones web Drupal. Me encanta el mundo del
          desarrollo en general y los videojuegos.
   twitter: JuandeLS3  # https://twitter.com/ is automatically added
   #facebook: webjeda # https://facebook.com/ is automatically added
