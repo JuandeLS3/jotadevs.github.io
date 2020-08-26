@@ -61,7 +61,7 @@ No hay que olvidar que el javascript tiene que recogerse usando los Drupal.behav
 ![small image]({{site.baseurl}}/images/js_webform_example.png)
 
 Quizás no sea la mejor solución, o la más elegante, pero es una válida hasta que Webform solucione este error, en la traducción de cadenas.
-Te invito a seguir esta issue por si salen soluciones mejores a las que te propongo: https://www.drupal.org/project/webform/issues/3167153
+Te invito a seguir esta issue por si salen soluciones mejores a las que te propongo: [https://www.drupal.org/project/webform/issues/3167153](https://www.drupal.org/project/webform/issues/3167153)
 
 ¡Un abrazo!
 
