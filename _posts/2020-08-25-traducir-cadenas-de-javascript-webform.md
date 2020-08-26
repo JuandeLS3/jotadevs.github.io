@@ -14,7 +14,7 @@ author: juandels3
 En este artículo quiero contaros la problemática que encontramos con Webform durante el desarrollo de un proyecto en Drupal 8, y por supuesto, la solución "temporal".
 
 Todo esto sucede, como ya os he contado, en el módulo contrib **Webform**, y más específicamente en el apartado **CSS / JS**, dentro de la configuración de un formulario.
-Resulta que a la hora de configurar el Javascript de un Webform dentro de este apartado, si incluyes cadenas para luego traducirlas no bastará con un simple *"Drupal->t()"*, ya el motor de traducción de Drupal no encontrará tus cadenas traducibles porque están almacenadas en el archivo de configuración del webform.
+Resulta que a la hora de configurar el Javascript de un Webform dentro de este apartado, si incluyes cadenas para luego traducirlas no bastará con un simple *"Drupal->t()"*, ya que el motor de traducción de Drupal no encontrará tus cadenas traducibles, porque están almacenadas en el fichero de configuración de Webform.
 
 Pero entonces, **¿cómo traducimos las cadenas dentro de este javascript?**
 
