@@ -2,7 +2,7 @@
 layout: post
 title: Web multilenguaje en Drupal 8 (colaboración)
 description: I'm back! No te pierdas mi nuevo post colaborando en la web de La Drupalera
-author: juandels3
+author: jotadevs
 categories: code
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Juegos con j de jQuery
 description: Echa un vistazo a uno de mis últimos proyectos relacionados con jQuery
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 

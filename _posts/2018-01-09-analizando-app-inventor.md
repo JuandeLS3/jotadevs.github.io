@@ -3,7 +3,7 @@ layout: post
 title: Analizando App Inventor
 description: Análisis de la aplicación web App Inventor
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 Buenas a tod@s.

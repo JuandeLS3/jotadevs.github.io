@@ -3,7 +3,7 @@ layout: post
 title: Primer post en La Drupalera
 description: Tengo el orgullo de presentaros mi primer post en @ladrupalera
 categories: life
-author: juandels3
+author: jotadevs
 ---
 
 ¡Buenas tardes!

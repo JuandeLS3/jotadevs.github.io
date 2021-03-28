@@ -3,7 +3,7 @@ layout: post
 title: Hablemos sobre Big Data
 description: Seguro que has oído hablar alguna vez sobre Big Data. Pero, ¿sabes todo lo que se encierra detrás realmente?
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 ![small image](http://static.america-retail.com/2018/04/what-is-big-data.png)

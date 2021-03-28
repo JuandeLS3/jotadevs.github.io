@@ -2,7 +2,7 @@
 layout: post
 title: Actualizar core de Drupal 8 con composer
 description: Actualizaremos el core de Drupal 8 con composer paso a paso de forma sencilla
-author: juandels3
+author: jotadevs
 categories: code
 ---
 

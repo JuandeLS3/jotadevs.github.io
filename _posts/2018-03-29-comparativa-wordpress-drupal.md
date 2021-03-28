@@ -3,7 +3,7 @@ layout: post
 title: Comparativa I - Drupal y Wordpress
 description: Realizo una comparativa entre estos dos potentes CMS
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 

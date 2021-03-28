@@ -3,7 +3,7 @@ layout: post
 title: Juega Sea of Thieves y más por 1 euro
 description: No pierdas la oportunidad de conseguir Sea of Thieves y más juegos por un euro
 categories: games
-author: juandels3
+author: jotadevs
 ---
 
 

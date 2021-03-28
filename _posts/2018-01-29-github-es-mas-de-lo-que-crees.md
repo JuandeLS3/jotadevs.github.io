@@ -3,7 +3,7 @@ layout: post
 title: Github es más de lo que crees
 description: Conoce Github un poco más
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: El poder de las redes sociales
 description: ¿Sabías que si usas redes sociales estás dejando un rastro de migas de pan?
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 ![small image]({{site.baseurl}}/images/redessociales.jpg)

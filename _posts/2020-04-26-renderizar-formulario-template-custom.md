@@ -3,7 +3,7 @@ layout: post
 title: Formulario en un template custom
 description: Cargaremos un form en un bloque a través de un template, para ajustar una estructura html y una funcionalidad por js
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 ![small image]({{site.baseurl}}/images/drupal-twig.png)

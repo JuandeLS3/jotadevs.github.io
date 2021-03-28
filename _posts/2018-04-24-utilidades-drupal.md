@@ -3,7 +3,7 @@ layout: post
 title: Utilidades para Drupal I
 description: Analizaremos algunas de las mejores y más usadas herramientas para Drupal
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 

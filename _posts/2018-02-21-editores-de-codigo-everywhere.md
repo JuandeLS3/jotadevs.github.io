@@ -3,7 +3,7 @@ layout: post
 title: Editores de código everywhere
 description: Analizaremos el gran abanico de editores de código... ¿con cuál nos quedamos?
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 

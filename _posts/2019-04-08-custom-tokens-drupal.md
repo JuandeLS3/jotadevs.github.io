@@ -2,7 +2,7 @@
 layout: post
 title: Custom tokens en Drupal 8
 description: Implementaremos tokens personalizados para renderizar cadenas de texto según nuestras necesidades
-author: juandels3
+author: jotadevs
 categories: code
 ---
 

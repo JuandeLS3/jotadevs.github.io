@@ -3,7 +3,7 @@ layout: post
 title: Proyecto integrado 2018
 description: Os hablo de mi experiencia en el desarrollo del PI 2018 para el IES Polígono Sur
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 ¡Hola a tod@s!

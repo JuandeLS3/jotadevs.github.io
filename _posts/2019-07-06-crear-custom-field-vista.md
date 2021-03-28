@@ -2,7 +2,7 @@
 layout: post
 title: Crear custom field en una vista
 description: Trabajaremos en crear un campo personalizado para una vista en Drupal 8.
-author: juandels3
+author: jotadevs
 categories: code
 ---
 

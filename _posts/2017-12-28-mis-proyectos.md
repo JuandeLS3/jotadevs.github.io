@@ -3,7 +3,7 @@ layout: post
 title: Mis proyectos
 description: Os hablo un poco sobre mis proyectos y pensamientos a nivel de desarrollo web
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 Buenas a todos.

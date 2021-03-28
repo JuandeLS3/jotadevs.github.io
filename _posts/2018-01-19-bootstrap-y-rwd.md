@@ -3,7 +3,7 @@ layout: post
 title: Bootstrap y el RWD
 description: Comentaremos el conocido por todos framework Bootstrap y el Responsive Web Design a día de hoy
 categories: code
-author: juandels3
+author: jotadevs
 ---
 
 Buenas a tod@s.

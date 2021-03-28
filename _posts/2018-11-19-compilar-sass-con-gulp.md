@@ -2,7 +2,7 @@
 layout: post
 title: Compilar Sass con Gulp.js
 description: Aprovecha las ventajas que trae gulp.js a la hora de compilar Sass en tu proyecto
-author: juandels3
+author: jotadevs
 categories: code
 ---
 

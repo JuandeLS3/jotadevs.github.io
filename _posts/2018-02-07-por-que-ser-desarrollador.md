@@ -3,7 +3,7 @@ layout: post
 title: Por qué ser desarrollador
 description: Algo más personal, donde os comento mi opinión personal acerca de por qué ser desarrollador hoy en día
 categories: life
-author: juandels3
+author: jotadevs
 ---
 
 

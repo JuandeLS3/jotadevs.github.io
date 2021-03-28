@@ -3,7 +3,7 @@ layout: post
 title: Battlefield V no tendrá Premium
 description: EA y DICE han decidido dar gratuitamente todos los DLC a los que compren su juego
 categories: games
-author: juandels3
+author: jotadevs
 ---
 
 ![small image]({{site.baseurl}}/images/battlefieldv.jpg)

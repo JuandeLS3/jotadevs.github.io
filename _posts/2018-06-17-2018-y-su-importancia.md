@@ -3,7 +3,7 @@ layout: post
 title: 2018 y su gran importancia
 description: En el reciente año estoy aprendiendo infinidad de cosas a base de experiencias buenas y otras no tan buenas
 categories: life
-author: juandels3
+author: jotadevs
 ---
 
 ![small image]({{site.baseurl}}/images/2018.png)
