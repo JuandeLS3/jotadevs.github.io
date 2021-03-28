@@ -54,11 +54,11 @@
 .author-image {
     border-radius: 50%;
     margin-top: 30px;
-    height: 145px;
+    height: 137px;
     width: 136px;
     @include media-query($on-palm) {
         height: auto;
-        width: 70px;
+        width: 120px;
     }
 }
 
