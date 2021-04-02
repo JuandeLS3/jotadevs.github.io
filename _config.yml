@@ -10,9 +10,9 @@ title: Drupal blog - JotaDevs
 description: > # this means to ignore newlines until "baseurl:"
  Bienvenid@ al blog de Juan Delgado Salmerón "JotaDevs" - Desarrollador web backend Drupal. Artículos, tutoriales y más sobre Drupal en general. También escribo sobre videojuegos y de vez en cuando experiencias personales.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jotadevs.github.io/"
+url: "https://juandels3.github.io/"
 permalink: :title/
-full-url: "https://jotadevs.github.io/" # the base hostname & protocol for your site
+full-url: "https://juandels3.github.io/" # the base hostname & protocol for your site
 
 
 # CSS
@@ -31,10 +31,10 @@ analytics: UA-119603257-1
 simpleform-token: af76965ad6e2b0be1ffb2d61576f5f64
 
 # Redirect users after submitting the form
-redirect-to: https://jotadevs.github.io/
+redirect-to: https://juandels3.github.io/
 
 # Site version
-version: 1.7
+version: 1.6
 
 
 # Post date background - This will change the background of the post date and tag ribbon according to the theme. If set to no default green background will be used. If yes then the theme color scheme is used.
