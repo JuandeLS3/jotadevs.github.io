@@ -16,6 +16,7 @@ Todo comenzó con un curso de Unity y C# creado por Juan Gabriel Gomila Salas qu
 En diciembre de 2020 empecé a curiosear acerca del desarrollo de videojuegos indie a través de Youtube, y eso me motivó (por fin) a comenzar el curso de Udemy que compré aquel 2018. Pese a estar pasando por una pandemia mundial, no olvidaré ese diciembre. Mi motivación y endorfinas crecían mientras continuaba con el curso de Unity y C#, y es que se estaban mezclando en mi cerebro mis dos pasiones: **la programación y los videojuegos**.
 
 Acabé el curso de 110 horas en Febrero de 2021, y trabajé en mi primer videojuego: Dirty platform. Un plataformero clásico sin mucha complicación, que acabé publicando en la Google Play Store para aprender acerca del flujo. El proceso de aprendizaje y desarrollo del mismo ha sido muy satisfactorio. A día de hoy sigo aprendiendo y estoy trabajando en un **videojuego más ambicioso**, integrando servicios como Realtime database y Authentication de Firebase con Unity.
+
 ![small image]({{site.baseurl}}/images/mychamp.jpg) 
 
 Toda la experiencia adquirida (y la que queda por aprender) la iré compartiendo en mi [canal de Youtube](https://www.youtube.com/c/JotaDevs/) mediante tutoriales de Drupal, Unity, consejos y trucos, reviews de algunos videojuegos indie, experiencias personales en mi trayectoria laboral, etc. Es por esto que te invito a que te pases por mi canal de Youtube -JotaDevs- y te suscribas si te gusta mi contenido.
