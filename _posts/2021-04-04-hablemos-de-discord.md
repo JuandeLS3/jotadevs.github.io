@@ -25,6 +25,7 @@ Y es que al final Discord es una aplicación que tiene todo lo que un usuario ca
 
 Con esos 3 puntos no es de extrañar que su competencia directa, Skype y Teamspeak, esté perdiendo cada vez más clientes.
 
-Para finalizar, te dejo el último vídeo que he subido en mi canal de Youtube, donde detallo los "easter eggs" o secretos que esconde esta aplicación: https://www.youtube.com/watch?v=1aB0w2j6A3g
+Para finalizar, te dejo el último vídeo que he subido en mi canal de Youtube, donde detallo los "easter eggs" o secretos que esconde esta aplicación: [https://www.youtube.com/watch?v=1aB0w2j6A3g](https://www.youtube.com/watch?v=1aB0w2j6A3g)
 
-¡Un saludo y nos vemos en la próxima!
+Un saludo y nos vemos en la próxima.
+
