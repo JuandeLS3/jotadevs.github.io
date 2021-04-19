@@ -6,6 +6,8 @@ categories: code
 author: juandels3
 ---
 
+![small image]({{site.baseurl}}/images/www.jpg)
+
 ¡Hola!
 
 Much@s sabemos que internet es la solución para expandir un negocio, para vender un producto o darse a conocer... Nada más lejos de la realidad, internet no es solo la solución, sino una necesidad real y un requisito indispensable hoy en día para llegar a más público y no dejar nuestras esperanzas de crecimiento a merced del destino.
