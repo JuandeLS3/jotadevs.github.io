@@ -19,7 +19,7 @@ Crear una página web es el **primer paso** para expandir tu negocio de forma di
  - Una página **estática** es una web tipo "landing" o "single page" la cual no hace uso de una base de datos, y todo se remonta en un html plano. Es un tipo de página web perfecto para exponer un negocio, producto, perfil profesional o incluso un portfolio.
  - Una página **dinámica** es una web que hace peticiones a una base de datos, normalmente para gestionar productos, perfiles o tratar datos de los usuarios.
 
-En el siguiente vídeo te muestro **cómo crear una página web profesional de forma gratuita en 5 minutos**.
+En el siguiente vídeo te muestro [cómo crear una página web profesional de forma gratuita en 5 minutos](https://www.youtube.com/watch?v=XpSqjRtxTYk).
 
 [![Crear Página Web Profesional con Hosting y SSL GRATIS]({{site.baseurl}}/images/webgratis.png)](https://www.youtube.com/watch?v=XpSqjRtxTYk "Crear Página Web Profesional con Hosting y SSL GRATIS ✅")
 
