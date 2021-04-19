@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Las páginas web estáticas
+title: Páginas web estáticas
 description: El tipo de páginas ideal para tu negocio, producto, portfolio o perfil profesional.
 categories: code
 author: juandels3
