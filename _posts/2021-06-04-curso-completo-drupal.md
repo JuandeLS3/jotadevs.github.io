@@ -1,7 +1,7 @@
 ---
 layout: post
-title: El Curso de Drupal más completo, en español
-description: Publico el curso en el que he estado trabajando estos meses atrás, en la plataforma Udemy.
+title: El curso de Drupal más completo
+description: Te presento el curso en el que he estado trabajando estos meses. ¡Échale un vistazo!
 categories: code
 author: juandels3
 ---
