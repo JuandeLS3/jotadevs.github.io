@@ -8,7 +8,7 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/curso-drupal.jpg)
 
-Hace aproximadamente 6 años escuché hablar por primera vez de Drupal en mitad de una clase, donde mi profesora explicaba qué era un gestor de contenido y para qué servía; en ese momento Drupal para mí era una simple herramienta para hacer blogs, bastante fea visualmente comparada con Wordpress.
+Hace aproximadamente 6 años escuché hablar de **Drupal** por primera vez en mitad de una clase, donde mi profesora explicaba qué era un gestor de contenidos y para qué se utilizaba. En ese momento, Drupal era para mí una simple herramienta para hacer blogs, bastante fea visualmente, comparada con Wordpress.
 
 Nunca hubiera llegado a pensar que hoy, en 2021, esa tecnología de la que hablaba mi profesora se convertiría en una parte tan importante en mi vida. Puede sonar exagerado y hasta un poco dramático, pero gracias a Drupal (y a mi esfuerzo por entenderlo) he conseguido obtener un buen nivel de codificación, buenas prácticas y he entendido ciertas bases fundamentales de la programación y el patrón MVC (modelo-vista-controlador).
 
@@ -64,6 +64,6 @@ Un total de casi **16h de vídeos**, la mayoría prácticos mostrando qué y có
 
 Te invito a que eches un vistazo en profundidad al curso, revises las clases de cada uno de los bloques, y previsualices las clases gratuitas. Enlace directo aquí: [https://bit.ly/3g152uc](https://bit.ly/3g152uc)
 
-Si todo te parece correcto, **puedes obtener el curso mucho MUCHO más económico** desde este enlace: [https://bit.ly/3g152uc](https://bit.ly/3g152uc)
+Si todo te parece correcto, **puedes obtener el curso mucho MUCHO más económico (unos 10€, casi un cubata)** desde este enlace: [https://bit.ly/3g152uc](https://bit.ly/3g152uc)
 
 ¡Muchas gracias por leer hasta el final, y nos vemos en la próxima!
