@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configurar xDebug en docker4drupal
-description: Cómo habilitar y configurar xDebug en docker4drupal
+description: Cómo habilitar, configurar y usar xDebug en docker4drupal, y no morir en el intento.
 categories: code
 author: juandels3
 ---
@@ -21,7 +21,7 @@ Docker4drupal es maravilloso, ya que te permite usar, casi a golpe de clic, una 
 
 En este artículo no vamos a extendernos demasiado en qué es y qué ofrece docker4drupal; vamos a ser mucho más específicos. Hablaremos de **cómo habilitar y configurar xDebug en docker4drupal**.
 
-Como ya sabes, xDebug es la extensión PHP que permite al desarrollador depurar código. Es algo indispensable si estás desarrollando en Drupal, por lo que es casi obligatorio tenerlo habilitado y funcionando en nuestro IDE favorito, PHPStorm.
+Como ya sabes, xDebug es la extensión PHP que permite al desarrollador depurar código. Es algo indispensable si estás desarrollando en Drupal, así que es casi obligatorio tenerlo habilitado y funcionando en nuestro IDE favorito, PHPStorm.
 
 ## Configurar el docker-compose.yml
 
@@ -81,12 +81,12 @@ Sabes que me gusta terminar siempre con una conclusión. Y es que xDebug es cura
 Gracias por llegar hasta aquí y espero haberte ayudado. Si no ha sido así, tengo algo para ti...
 Para celebrar que BlackFriday está a la vuelta de la esquina, te dejaré dos códigos promocionales para que obtengas un gran descuento en el Curso Completo de Drupal en español. En este curso, además de mucho Drupal, encontrarás en relación a este post cómo habilitar xDebug en docker4drupal paso a paso **y en formato vídeo**. Y no solo eso, también cómo usar xDebug en un proyecto real junto a otros ejemplos.
 
-- Promo locura de BlackFriday: el curso al menor precio posible: 9,99€, sólo disponible 5 DÍAS, disponible hasta el **11-11-21**:
+1. Promo locura de BlackFriday: el curso al **menor precio posible: 9,99€**, sólo disponible 5 DÍAS, disponible hasta el **11-11-21**:
 
 
     JOTADEVSBL4FR121_1
 
-- Promo de BlackFriday para rezagad@s: el curso rebajado al 90%, disponible hasta el **07-12-21**:
+2. Promo de BlackFriday para rezagad@s: **el curso rebajado al 90%**, disponible hasta el **07-12-21**:
 
 
     JOTADEVSBL4FR121_2
