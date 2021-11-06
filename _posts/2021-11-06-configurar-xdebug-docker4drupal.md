@@ -81,12 +81,12 @@ Sabes que me gusta terminar siempre con una conclusión. Y es que xDebug es cura
 Gracias por llegar hasta aquí y espero haberte ayudado. Si no ha sido así, tengo algo para ti...
 Para celebrar que BlackFriday está a la vuelta de la esquina, te dejaré dos códigos promocionales para que obtengas un gran descuento en el Curso Completo de Drupal en español. En este curso, además de mucho Drupal, encontrarás en relación a este post cómo habilitar xDebug en docker4drupal paso a paso **y en formato vídeo**. Y no solo eso, también cómo usar xDebug en un proyecto real junto a otros ejemplos.
 
-1. Promo locura de BlackFriday: el curso al **menor precio posible: 9,99€**, sólo disponible 5 DÍAS, disponible hasta el **11-11-21**:
+Promo locura de BlackFriday: el curso al **menor precio posible: 9,99€**, sólo disponible 5 DÍAS, disponible hasta el **11-11-21**:
 
 
     JOTADEVSBL4FR121_1
 
-2. Promo de BlackFriday para rezagad@s: **el curso rebajado al 90%**, disponible hasta el **07-12-21**:
+Promo de BlackFriday para rezagad@s: **el curso rebajado al 90%**, disponible hasta el **07-12-21**:
 
 
     JOTADEVSBL4FR121_2
