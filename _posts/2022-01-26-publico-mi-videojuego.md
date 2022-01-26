@@ -6,7 +6,6 @@ categories: life
 author: juandels3
 ---
 
-![small image]({{site.baseurl}}/images/mychamp-intro.png)
 
 Si te dijera hace unos diez años que cualquier persona puede desarrollar su propio videojuego, sería impensable. Hoy día todo esto ha cambiado; tenemos a nuestra disposición las herramientas y la información, las dos barreras -antes infranqueables- a la hora de iniciarse en el desarrollo de videojuegos.
 
@@ -24,7 +23,7 @@ Este proyecto me ha enseñado muchísimas cosas, y creo que pese a ser de mis pr
 
 ![small image]({{site.baseurl}}/images/mychamp-profile03.png)
 ![small image]({{site.baseurl}}/images/mychamp-profile05.png)
-![small image]({{site.baseurl}}/images/mychamp-profile10.png)
+![small image]({{site.baseurl}}/images/mychamp-profile10.jpg)
 
 ## Características del juego
 
