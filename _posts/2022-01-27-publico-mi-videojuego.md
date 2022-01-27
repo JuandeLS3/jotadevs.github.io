@@ -1,7 +1,7 @@
 ---
 layout: post
-title: test post
-description: test
+title: Publico mi videojuego, My Champ
+description: Después de 1 año y 4 meses de desarrollo, publico mi primer videojuego.
 categories: life
 author: juandels3
 ---
