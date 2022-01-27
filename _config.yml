@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
  Blog de Juan Delgado, instructor de Udemy y Senior Drupal lover. La mejor información y recursos más interesantes sobre Drupal y sus entresijos, en español.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juandels3.github.io/"
-#permalink: :title/
+permalink: :title/
 full-url: "https://juandels3.github.io/" # the base hostname & protocol for your site
 
 

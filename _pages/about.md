@@ -34,9 +34,16 @@ Aquí comencé mis primeros 3 meses de prácticas, después de finalizar los 2 a
 ![small image]({{site.baseurl}}/images/emergya.jpg)
 
 **Emergya**
-*2018 - actualidad*
+*2018 - 2021*
 
 Al finalizar mi Grado Superior de Desarrollo de Aplicaciones Web, comencé las prácticas en Emergya, una empresa de consultoría. Al terminar los 3 meses de prácticas decidieron contar conmigo. A día de hoy trabajo como desarrollador backend con Drupal 8/PHP en proyectos punteros haciendo lo que me gusta.
+
+![small image]({{site.baseurl}}/images/hiberus.png)
+
+**Hiberus**
+*2021 - actualidad*
+
+En busca de nuevas aventuras y retos profesionales me mudé a Hiberus, una empresa de Zaragoza en la cual estoy muy agusto y haciendo lo que más me gusta: programar en Drupal.
 
 <style>
 img {
