@@ -46,3 +46,7 @@ No descarto incluir anuncios de una manera no intrusiva para el usuario en el fu
 My Champ estará disponible el 28 de Enero de 2022 gratis para usuarios con android, desde la Google Play Store. Puedes echar un vistazo al trailer aquí: [https://www.youtube.com/watch?v=pVzFBEc_Lxc](https://www.youtube.com/watch?v=pVzFBEc_Lxc)
 My Champ es un juego family-friendly apto para cualquier edad, debido a su aspecto cartoon tan llamativo.
 Espero que lo pruebes, lo compartas con tus familiares y amig@s y lo más importante, me des tu opinión para mejorar en el futuro. ¡Muchas gracias!
+
+Enlaces útiles:
+- Trailer de My Champ: [https://www.youtube.com/watch?v=pVzFBEc_Lxc](https://www.youtube.com/watch?v=pVzFBEc_Lxc)
+- Twitter de My Champ: [https://twitter.com/mychampgame](https://twitter.com/mychampgame)
