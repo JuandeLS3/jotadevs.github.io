@@ -34,7 +34,7 @@ La competición no acaba ahí. El juego también incorpora un TOP CHAMPS, donde 
 
 ## Futuro y hoja de ruta
 
-My Champ sale este viernes 28 de enero de 2021 en su versión 1.0. Esto quiere decir que nada de early access, ni betas, ni mucho menos alphas: el juego está perfectamente jugable, aunque esto no quiere decir que libre de errores. Es por eso que mi intención es dar algo de soporte al juego, en función de los jugadores que vayan entreando a La Arena. Porque seámos sinceros, mi objetivo, que era el de terminar este juego y que fuera divertido y jugable, se ha cumplido con éxito.
+My Champ sale este viernes 28 de enero ([¡ya ha salido!](https://play.google.com/store/apps/details?id=com.zurdevs.mychamp)) de 2021 en su versión 1.0. Esto quiere decir que nada de early access, ni betas, ni mucho menos alphas: el juego está perfectamente jugable, aunque esto no quiere decir que libre de errores. Es por eso que mi intención es dar algo de soporte al juego, en función de los jugadores que vayan entreando a La Arena. Porque seámos sinceros, mi objetivo, que era el de terminar este juego y que fuera divertido y jugable, se ha cumplido con éxito.
 Sin embargo, el soporte del juego está garantizado por mi parte de aquí a unos meses, lo que incluye: solución de errores, nuevo contenido y minijuegos del Dojo, nuevas arenas, nuevos items para la tienda, nuevos cosméticos para los Champs, etc...
 
 ## Monetización
@@ -48,5 +48,6 @@ My Champ es un juego family-friendly apto para cualquier edad, debido a su aspec
 Espero que lo pruebes, lo compartas con tus familiares y amig@s y lo más importante, me des tu opinión para mejorar en el futuro. ¡Muchas gracias!
 
 Enlaces útiles:
+- Descarga desde Play Store: [https://play.google.com/store/apps/details?id=com.zurdevs.mychamp](https://play.google.com/store/apps/details?id=com.zurdevs.mychamp)
 - Trailer de My Champ: [https://www.youtube.com/watch?v=pVzFBEc_Lxc](https://www.youtube.com/watch?v=pVzFBEc_Lxc)
 - Twitter de My Champ: [https://twitter.com/mychampgame](https://twitter.com/mychampgame)
