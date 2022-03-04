@@ -38,7 +38,8 @@ Una vez hecho, Google nos dará la CLAVE DEL SITIO WEB y la CLAVE SECRETA, como 
 ![small image]({{site.baseurl}}/images/captcha/captcha_2.png)
 
 FYI: no es la pantalla de tu PC ni tu navegador, he subrayado en rojo para que no me roben mis keys.
-Bueno y ahora... ¡volvamos a Drupal...! Para este caso en particular me he tomado el placer de instalar un Drupal 9.3.6 con docker4drupal -en este blog no divulgamos por divulgar, PROBAMOS y CERTIFICAMOS lo que se escribe, faltaría más-
+
+Bueno y ahora... ¡volvamos a Drupal! Para este caso en particular me he tomado el placer de instalar un Drupal 9.3.6 con docker4drupal -en este blog no divulgamos por divulgar, PROBAMOS y CERTIFICAMOS lo que se escribe, faltaría más-
 
 ![small image]({{site.baseurl}}/images/captcha/captcha_3.png)
 
