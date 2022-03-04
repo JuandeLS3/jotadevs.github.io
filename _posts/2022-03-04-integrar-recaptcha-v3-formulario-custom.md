@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Integrar reCAPTCHA v3 en un formulario custom
-description: Adiós a los bots y agencias publicitarias engañosas.
+title: reCAPTCHA v3 en formularios custom
+description: Adiós a los bots y agencias publicitarias engañosas. ¡Vamos a integrar reCAPTCHA v3!
 categories: code
 author: juandels3
 ---
