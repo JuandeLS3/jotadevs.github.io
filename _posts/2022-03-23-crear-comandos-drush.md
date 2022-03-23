@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Crear comandos en Drush
-description: Cómo crear un proceso por lotes mediante un comando drush (¡2x1!)
+description: Cómo crear un proceso por lotes (batch) a través de nuestro propio comando drush.
 categories: code
 author: juandels3
 ---
