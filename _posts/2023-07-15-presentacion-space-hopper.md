@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ¡Os presento Space Hopper!
-description: Después de 5 meses de desarrollo, presento mi segundo videojuego
+description: Después de 5 meses de desarrollo, presento mi segundo videojuego para móviles, ambientado en el espacio exterior.
 categories: code
 author: juandels3
 ---
