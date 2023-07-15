@@ -40,8 +40,8 @@ Aunque gracias a mi anterior proyecto, My Champ, he aprendido cómo gestionar y 
 
 ## Conclusión final y trailer del juego
 
-Te invito a hacer el Registro previo del juego para obtener un regalo en el lanzamiento: https://play.google.com/store/apps/details?id=com.jotadevs.spacehopper
-El regalo será una skin multicolor del aire del propulsor de tu personaje; explora el espacio con estilo.
+Te invito a hacer el Registro previo del juego para obtener un regalo en el lanzamiento: [https://play.google.com/store/apps/details?id=com.jotadevs.spacehopper](https://play.google.com/store/apps/details?id=com.jotadevs.spacehopper)
+El regalo será una skin multicolor del aire del propulsor de tu personaje; ¡explora el espacio con estilo!
 
 ![small image]({{site.baseurl}}/images/spacehopper_5.png)
 
