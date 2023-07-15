@@ -40,6 +40,11 @@ Aunque gracias a mi anterior proyecto, My Champ, he aprendido cómo gestionar y 
 
 ## Conclusión final y trailer del juego
 
+Te invito a hacer el Registro previo del juego para obtener un regalo en el lanzamiento: https://play.google.com/store/apps/details?id=com.jotadevs.spacehopper
+El regalo será una skin multicolor del aire del propulsor de tu personaje; explora el espacio con estilo.
+
+![small image]({{site.baseurl}}/images/spacehopper_5.png)
+
 Space Hopper estará disponible el **28 de julio de 2023** exclusivamente para teléfonos android, gratis en la Google Play Store. Te invito a probarlo entonces, y a darme tu reseña (¡no cuesta nada!)
 
 Te dejo por aquí el trailer del juego: [https://www.youtube.com/watch?v=yyWycgBXoZI](https://www.youtube.com/watch?v=yyWycgBXoZI)
