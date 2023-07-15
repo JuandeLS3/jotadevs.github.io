@@ -28,13 +28,15 @@ Es un juego que te invita a explorar, y en el que he intentado representar la de
 ## Arte y gráficos
 
 No he estado sólo, y desde aquí quiero agradecer a Eynerrth Rodriguez su trabajo y dedicación en algunos apartados importantes del juego, como en las pruebas (QA) o la parte visual y el arte del juego, como los personajes principales o A.U.R.A, la Inteligencia Artificial que te dará apoyo en determinados momentos de tu exploración espacial, incluido el tutorial.
+
 ![small image]({{site.baseurl}}/images/spacehopper_3.png)
 
 ## Evolución y cambios
 
 Este proyecto ha sido una maratón de 5 meses con constantes cambios, decisiones y evolución del videojuego en muchas vertientes: desde qué tipo de música poner al jugador o cómo representar a A.U.R.A, hasta cómo plantear un final digno para la historia del juego.
 Aunque gracias a mi anterior proyecto, My Champ, he aprendido cómo gestionar y priorizar en este tipo de desarrollos.
-![small image]({{site.baseurl}}/images/spacehopper_3.png)
+
+![small image]({{site.baseurl}}/images/spacehopper_2.png)
 
 ## Conclusión final y trailer del juego
 
@@ -43,3 +45,5 @@ Space Hopper estará disponible el **28 de julio de 2023** exclusivamente para t
 Te dejo por aquí el trailer del juego: [https://www.youtube.com/watch?v=yyWycgBXoZI](https://www.youtube.com/watch?v=yyWycgBXoZI)
 
 ¡Un saludo, y nos vemos pronto!
+
+![small image]({{site.baseurl}}/images/spacehopper_4.png)
