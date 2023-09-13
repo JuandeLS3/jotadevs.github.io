@@ -9,28 +9,29 @@ author: juandels3
 ![small image]({{site.baseurl}}/images/Drupal10_0.jpg)
 
 
-¡Hola! ¡Finalizamos un caluroso y seguro que divertido verano para comenzar el mes de septiembre, con mucha energía!
-Te doy la bienvenida a este nuevo artículo de mi blog, en el que repasaremos cómo llevar a cabo la instalación de Drupal 10 en su versión más reciente a través de docker4drupal en la distribución Ubuntu (Linux).
+¡Hola! ¡Finalizamos un caluroso y seguro que divertido verano para comenzar el mes de septiembre con mucha energía!
+
+Te doy la bienvenida a este nuevo artículo de mi blog, en el que repasaremos **cómo llevar a cabo la instalación de Drupal 10 en su versión más reciente** a través de docker4drupal en la distribución **Ubuntu** (Linux).
 
 ## ¿Por qué Docker4Drupal?
 
 Docker4Drupal es uno (si no el que más) de los stacks de docker más utilizados a la hora de montar infraestructuras Drupal en el ámbito profesional, por varias razones muy concretas:
 
-1. Extremadamente fácil de instalar.
-2. Es sencillo de mantener y escalar, gracias el uso de contenedores de Docker.
-3. Tiene un stack completo de librerías y herramientas muy útiles enfocadas en Drupal.
-4. Tiene la estructura recomendada de jerarquía de ficheros y carpetas, además de composer y drush ya instalados y configurados.
+1. Extremadamente **fácil** de instalar.
+2. Es sencillo de **mantener y escalar**, gracias el uso de contenedores de Docker.
+3. Tiene un stack completo de librerías y herramientas muy útiles **enfocadas en Drupal**.
+4. Tiene la **estructura recomendada** de jerarquía de ficheros y carpetas, además de **composer** y **drush** ya instalados y configurados.
 
 Puedes acceder a la documentación de docker4drupal a través de [aquí](https://wodby.com/docs/1.0/stacks/drupal/local/).
 
 ## Requisitos antes de continuar
 
-Debemos cumplir la [verificación de los requisitos](https://wodby.com/docs/1.0/stacks/drupal/local/#requirements) para continuar con la descarga y el uso de docker4drupal.
+Debemos cumplir la [verificación de los requisitos](https://wodby.com/docs/1.0/stacks/drupal/local/#requirements) para continuar con la descarga y el uso de docker4drupal, y eso incluye:
 
-1. Instalar docker
-2. Instalar docker-compose como plugin.
+1. **Instalar Docker**.
+2. **Instalar docker-compose como plugin**.
 
-Para instalar docker introducimos los siguientes comandos desde nuestra shell, que servirán para actualizar nuestros repositorios locales:
+Para instalar Docker introducimos los siguientes comandos desde nuestra shell, que servirán para actualizar nuestros repositorios locales y añadir la gpg de Docker al mismo:
 
 ```bash
 sudo apt-get update
@@ -66,7 +67,7 @@ sudo apt-get update
 sudo apt-get install docker-compose-plugin
 ```
 
-Podemos verificar la instalación introduciendo:
+Ya podemos verificar la instalación introduciendo:
 
 ```console
 docker compose version
@@ -87,7 +88,7 @@ Ahora nos centraremos en modificar un fichero importante: **.env**.
     PROJECT_BASE_URL=juandels3.docker.localhost
     PROJECT_PORT=8000
 
-Es importante utilizar el puerto 8000 (u otro) para no tener conflictos con puertos utilizados por otros servicios como Apache (80) o Tomcat (8080).
+Es importante utilizar el puerto 8000 (u otro) para no tener conflictos con puertos utilizados por otros servicios, como Apache (80) o Tomcat (8080).
 La sección de variables que establecen la conectividad a la base de datos la podemos dejar por defecto.
 Es importante que la variable DRUPAL_TAG esté definida así para hacer uso de Drupal 10:
 
