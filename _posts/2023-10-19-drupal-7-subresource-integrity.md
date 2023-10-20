@@ -14,7 +14,7 @@ Pero antes de empezar, ¡un poco de contexto!
 # Contexto
 
 La problemática en particular se da cuando el cliente nos solicita la mejora de la seguridad en uno de los portales que corren en un Drupal 7. El cliente nos adjunta un informe de seguridad
-donde, a través de ciertas herramientas como Secure Headers (https://securityheaders.com/) o el Observatorio de Mozilla (https://observatory.mozilla.org/) vienen indicadas las vulnerabilidades
+donde, a través de ciertas herramientas como [Security Headers](https://securityheaders.com) o el [Observatorio de Mozilla](https://observatory.mozilla.org/)  vienen indicadas las vulnerabilidades
 mediante un análisis a las cabeceras y elementos de la página web.
 
 El objetivo a partir de este punto es corregir estas vulnerabilidades y obtener una mejor puntuación. Hasta aquí todo bien, ¿no?
@@ -54,7 +54,7 @@ El Observatorio de Mozilla nos dice qué falla pero no quiénes los provocan. Pa
 - Opción A: buscar en el inspector de elementos del navegador y localizarlos uno a uno.
 - Opción B: utilizar la herramienta que te voy a decir y terminar antes de la hora de comer.
 
-La herramienta que me ayudó mucho es SRI-CHECK (https://github.com/4armed/sri-check). Esta sencilla y potente herramienta requiere de python pip y analizar una URL en busca de recursos que no tienen SRI implementado. Una vez instalado, me mostró lo siguiente:
+La herramienta que me ayudó mucho es [SRI-CHECK]([https://github.com/4armed/sri-check]). Esta sencilla y potente herramienta requiere de python pip y analizar una URL en busca de recursos que no tienen SRI implementado. Una vez instalado, me mostró lo siguiente:
 
 ![small image]({{site.baseurl}}/images/sri-3.png)
 
@@ -74,14 +74,14 @@ Para implementar SRI en los recursos que hemos localizado,  seguiremos los sigui
  * Implements HOOK_js_alter().
  */
 function sri_js_alter(&$javascript) {
-  // Add SRI secure header.
+  // Implements SRI.
   $javascript['//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js']['attributes']['crossorigin'] = 'anonymous';
   $javascript['//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js']['attributes']['integrity'] =
     'sha384-aBL3Lzi6c9LNDGvpHkZrrm3ZVsIwohDD7CDozL0pk8FwCrfmV7H9w8j3L7ikEv6h';
 }
 ```
 
-Para introducir el parámetro "**Integrity**" puedes obtener un hash para tu recurso de forma sencilla aquí: https://www.srihash.org/. Introduce el sha (la firma) de tu recurso proporcionado por esta web en el atributo "integrity" y... ¡listo!
+Para introducir el parámetro "**Integrity**" puedes obtener un hash para tu recurso de forma sencilla aquí: [https://www.srihash.org/](https://www.srihash.org/). Introduce el sha (la firma) de tu recurso proporcionado por esta web en el atributo "integrity" y... ¡listo!
 Para solventar el problema de HTTP, puedes utilizar este mismo hook y añadir lo siguiente para sobreescribir el src:
 
 ```
