@@ -50,11 +50,11 @@ A veces no todo es tan sencillo y bonito (ejem, Drupal 7 codazo, codazo) y requi
 ### Localización de recursos
 
 
-El Observatorio de Mozilla nos dice qué falla pero no quiénes los provocan. Para localizar los recursos externos que no tienen habilitado SRI tenemos dos opciones:
+El Observatorio de Mozilla nos dice "qué falla pero no quiénes lo provocan". Para localizar los recursos externos que no tienen habilitado SRI tenemos dos opciones:
 - Opción A: buscar en el inspector de elementos del navegador y localizarlos uno a uno.
-- Opción B: utilizar la herramienta que te voy a decir y terminar antes de la hora de comer.
+- Opción B: utilizar la herramienta que te voy a indicar y terminar antes de la hora de comer.
 
-La herramienta que me ayudó mucho es [SRI-CHECK]([https://github.com/4armed/sri-check]). Esta sencilla y potente herramienta requiere de python pip y analizar una URL en busca de recursos que no tienen SRI implementado. Una vez instalado, me mostró lo siguiente:
+La herramienta que me ayudó mucho es [SRI-CHECK]([https://github.com/4armed/sri-check]). Esta sencilla y potente herramienta requiere de python pip y se encarga de analizar una URL en busca de recursos que no tienen SRI implementado. Una vez instalado, nos muestra lo siguiente:
 
 ![small image]({{site.baseurl}}/images/sri-3.png)
 
