@@ -7,6 +7,11 @@ author: jotadevs
 ---
 
 ![small image]({{site.baseurl}}/images/jekyll.png)
+
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 Buenas a tod@s.
 
 Como ya expliqué [anteriormente](https://juandels3.github.io/hablemos-sobre-big-data/) desarrollé una migración del blog de Wordpress a Github pages con Jekyll. Os debía una explicación de a qué se debió este cambio tan drástico... ¡vamos allá!

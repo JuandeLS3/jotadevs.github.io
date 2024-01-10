@@ -8,6 +8,10 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/misildrupalero.png)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola a tod@s!  
   
 Hoy vamos a hablar de los **tokens** de Drupal, qué utilidad tienen y cómo implementarlos correctamente de una forma sencilla en nuestro proyecto Drupal 8.

@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/www.jpg)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola!
 
 Much@s sabemos que internet es la solución para expandir un negocio, para vender un producto o darse a conocer... Nada más lejos de la realidad, internet no es solo la solución, sino una necesidad real y un requisito indispensable hoy en día para llegar a más público y no dejar nuestras esperanzas de crecimiento a merced del destino.

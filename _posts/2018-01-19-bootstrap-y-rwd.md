@@ -6,6 +6,10 @@ categories: code
 author: jotadevs
 ---
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 Buenas a tod@s.
 
 Hoy justo han pasado 10 días de la última entrada en el blog. Perdonad pero he estado bastante ocupado estos días.

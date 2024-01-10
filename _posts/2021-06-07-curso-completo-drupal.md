@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/curso-drupal.jpg)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 Hace aproximadamente 6 años escuché hablar de **Drupal** por primera vez en mitad de una clase, donde mi profesora explicaba qué era un gestor de contenidos y para qué se utilizaba. En ese momento, Drupal era para mí una simple herramienta para hacer blogs, bastante fea visualmente, comparada con Wordpress.
 
 Nunca hubiera llegado a pensar que hoy, en 2021, esa tecnología de la que hablaba mi profesora se convertiría en una parte tan importante en mi vida. Puede sonar exagerado y hasta un poco dramático, pero gracias a Drupal (y a mi esfuerzo por entenderlo) he conseguido obtener un buen nivel de codificación, buenas prácticas y he entendido ciertas bases fundamentales de la programación y el patrón MVC (modelo-vista-controlador).

@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/mychamp-intro.png)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 Si te dijera hace unos diez años que cualquier persona puede desarrollar su propio videojuego, sería impensable. Hoy día todo esto ha cambiado; tenemos a nuestra disposición las herramientas y la información, las dos barreras -antes infranqueables- a la hora de iniciarse en el desarrollo de videojuegos.
 
 Crear un videojuego antes era una tarea que requería presupuestos millonarios, destinados en tecnología y recursos.

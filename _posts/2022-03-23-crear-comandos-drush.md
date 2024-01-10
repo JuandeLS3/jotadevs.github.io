@@ -9,6 +9,9 @@ author: juandels3
 ![small image]({{site.baseurl}}/images/drush_logo.png)
 
 
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola! Si quieres aprender Drupal, estás en un buen lugar.
 
 En esta ocasión, quiero compartir cómo crear tu propio Drush command (comando drush) desde PHP y lanzar un proceso por lotes (batch). Tranquilo si te abrumo con tanto término nuevo, ¡al final no es para tanto!

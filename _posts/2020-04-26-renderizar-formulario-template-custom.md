@@ -8,6 +8,10 @@ author: jotadevs
 
 ![small image]({{site.baseurl}}/images/drupal-twig.png)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola a tod@s! En primer lugar, quiero mandar muchas fuerzas y ánimos a las familias afectadas por el covid-19 y mi deseo de que esta situación pase lo más pronto posible. Por el momento, no queda otra que #QuedarseEnCasa y, para algunas personas, incluso seguir la actividad profesional mediante el teletrabajo, como es mi caso. Hoy me apetecía escribir algo drupalero, por lo tanto os traigo una breve explicación de cómo construir un formulario y mostrarlo en un template twig personalizado en Drupal 8.
 
 En este ejemplo, construiremos un formulario muy básico; se trata de un listado (select) de ciudades, que queremos renderizar en un template para ajustar unos estilos muy particulares y una funcionalidad por js.

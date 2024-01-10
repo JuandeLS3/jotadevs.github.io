@@ -7,6 +7,9 @@ author: jotadevs
 ---
 
 
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola a tod@s!
 
 Hoy quería hablaros de editores de texto y código fuente. Hay una gran variedad y cada uno tiene sus pros y contras, como todo en la vida. Hoy analizaremos amistosamente alguno de ellos y por supuesto, os daré mis recomendaciones pertinentes... ¡vamos allá!

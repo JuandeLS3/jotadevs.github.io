@@ -6,6 +6,10 @@ categories: code
 author: jotadevs
 ---
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ![small image]({{site.baseurl}}/images/frontback2.png)
 
 Hace poco tiempo, he pasado por una etapa en la que supongo habrán pasado muchísimos o la mayoría de desarrolladores. Se trata de qué camino elegir, a qué dedicarte al 100% en el mundo laboral del desarrollo web, qué tecnologías te verás comprometido a aprender, te gusten o no... efectivamente, hablo de de qué pasta estás hecho, ¿**desarrollador frontend o backend**?

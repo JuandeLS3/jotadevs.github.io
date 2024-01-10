@@ -8,6 +8,10 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/cron-drupal.jpeg)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola a tod@s! Pido disculpas por mi ausencia estos meses, pero he estado en una etapa de novedades y cambios y necesitaba un tiempo para asentarlo y volver más fuerte. 
 
 Cada día nos despertamos por la mañana, desayunamos, nos vestimos, lavamos los dientes, peinamos... y bueno, hacemos todas esas tareas cotidianas para empezar el día. Si no hacemos estas cosas sentimos que nos falta algo. El cron de Drupal 8 funciona de una forma similar. 

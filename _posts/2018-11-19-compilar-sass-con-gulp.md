@@ -8,6 +8,10 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/gulpjs.png)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Buenas a tod@s!  
   
 Hoy vamos a dar la vuelta a la tortilla, y nos desplazaremos un poco al lado front del desarrollo web, algo atípico en este blog, pero bueno, siempre es importante saber un poco de todo en este amplio mundillo. Para aprender a compilar Sass, primero debemos saber qué es, así que empezaremos definiendo un poco Sass.  

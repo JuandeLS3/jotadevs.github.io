@@ -8,6 +8,10 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/drupal_logo.png)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 Buenas tardes a tod@s. Hoy vamos a llevar a cabo el procedimiento de una actualización del **core de Drupal 8**. 
 Se han puesto muchos esfuerzos para que este proceso hoy en día sea fácil y no cause demasiados problemas.
 

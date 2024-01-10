@@ -7,6 +7,9 @@ author: jotadevs
 ---
 
 
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Buenas a tod@s! Espero sinceramente que todos estéis pasando una buena Semana Santa 2018. Estos días atrás he estado muy atareado debido a las prácticas en empresa y proyecto integrado de final de ciclo, y ha sido complicado dedicar tiempo al blog.
 
 Hoy quería hacer una comparativa sobre Drupal y WordPress. He trabajado con ambos (actualmente estoy trabajando con Drupal) y como todo en la vida, uno tiene ventajas y desventajas frente al otro. Vamos allá.

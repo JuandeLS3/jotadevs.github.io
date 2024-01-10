@@ -7,6 +7,9 @@ author: jotadevs
 ---
 
 
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 Quién no te ha dicho alguna vez que te hagas una cuenta de Github "de jajas" para subir tus proyectos y seguir otros... Esas cosas están muy bien, pero lo que no todo el mundo sabe, es que detrás de Github se mueve **mucho más** de lo que uno cree.
 
 ![small image]({{site.baseurl}}/images/github.png)

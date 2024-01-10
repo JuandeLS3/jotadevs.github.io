@@ -8,6 +8,10 @@ author: jotadevs
 
 ![small image]({{site.baseurl}}/images/webform_post.jpg)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola a tod@s! Después de unos meses de inactividad, me apetecía escribir y compartir algo de Drupal con todos ustedes. En este artículo hablaremos un poco -sin extendernos- de Webform para Drupal 8 y un caso específico: cómo generar una exportación de webform submissions en un campo custom.
 
 Pero como siempre, vayamos por partes...

@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/captcha/captcha.png)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola querid@ drupaler@!
 
 Pues resulta que entre tanta mudanza, bricolaje y [juegos hechos en Unity](https://juandels3.github.io/publico-mi-videojuego/) he recordado que tenía un blog Drupal. ¿Será que mis venas chorrean azul por el [anuncio de la DrupalCamp 2022 en Zaragoza](https://2022.drupalcamp.es/)? Es posible.

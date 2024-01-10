@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/yt_1200.png)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola! Escribo este artículo ilusionado, porque quería compartir que he vuelto a Youtube; y cuando digo "he vuelto", es porque efectivamente, fui creador de contenido en el pasado, pero eso es una larga historia.
 
 Mi objetivo en Youtube es compartir mis experiencias en el desarrollo web estos años, y el desarrollo de videojuegos, algo en lo que he estado **centrando mis esfuerzos estos meses atrás**.

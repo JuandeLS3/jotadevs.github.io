@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/javascript.jpg)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola a tod@s! Después de tomarme un periodo de vacaciones blogueras, ¡es hora de volver a la acción!
 En este artículo quiero contaros la problemática que encontramos con Webform durante el desarrollo de un proyecto en Drupal 8, y por supuesto, la solución "temporal".
 

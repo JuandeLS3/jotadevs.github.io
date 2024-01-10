@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/spacehopper_1.jpg)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola de nuevo! Ha pasado más de un año sin escribir por aquí, pero he estado inmerso en otros proyectos y asuntos personales que han consumido gran parte de mi tiempo y dedicación.
 
 Hoy día 15 de julio es para mí un día de celebración, orgullo y sacrificio, pero también satisfacción de haber conseguido cerrar un proyecto que empecé a analizar y organizar en marzo de 2023 y cuyo primer commit con código fue el 7 de abril de este mismo año. Han sido cerca de **5 meses** muy intensos de un videojuego que en realidad iba a ser mucho más arcade de lo que tenía pensado, y ha terminado siendo más ambicioso de lo que preví.

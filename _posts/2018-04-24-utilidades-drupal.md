@@ -8,6 +8,8 @@ author: jotadevs
 
 
 
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Buenas a tod@s! Hoy quería hablaros sobre algunas utilidades que he usado para Drupal y considero, a día de hoy, indispensables y muy útiles de cara al desarrollo en el CMS.
 
 ## Composer

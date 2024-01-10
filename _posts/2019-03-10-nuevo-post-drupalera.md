@@ -8,6 +8,10 @@ categories: code
 
 ![small image]({{site.baseurl}}/images/drupalera.jpg)
 
+
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 ¡Hola a tod@s!  
   
 Antes que nada quiero pedir disculpas por la ausencia de contenido en el blog, pero he estado dándole más prioridad a otros proyectos. Para compensaros, me siento orgulloso de presentar mi [nueva colaboración en la web de La Drupalera](https://www.ladrupalera.com/es/drupal/desarrollo/drupal-8/crear-sitio-web-multilenguaje-drupal-8).
