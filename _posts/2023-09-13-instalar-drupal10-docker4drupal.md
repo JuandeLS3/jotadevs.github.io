@@ -8,6 +8,10 @@ author: juandels3
 
 ![small image]({{site.baseurl}}/images/Drupal10_0.jpg)
 
+**¡NOTA IMPORTANTE!**
+
+> Todos los contenidos de este blog los podrás encontrar en Drupal Sapiens ([https://drupalsapiens.com/es](https://drupalsapiens.com)), la nueva plataforma de Divulgación y Cursos de Drupal, ¡con contenidos muy interesantes!
+
 
 ¡Hola! ¡Finalizamos un caluroso y seguro que divertido verano para comenzar el mes de septiembre con mucha energía!
 
